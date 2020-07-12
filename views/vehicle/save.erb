@@ -1,0 +1,412 @@
+<%#include "vehicle.h" %>
+<%#include "make.h" %>
+<%#include "vehiclemodel.h" %>
+<%#include "grade.h" %>
+<%#include "color.h" %>
+<%#include "fueltype.h" %>
+<%#include "bodytype.h" %>
+<%#include "drivetype.h" %>
+
+<% tfetch(QList<Make>, makeList) %>
+<% tfetch(QList<VehicleModel>, modelList) %>
+<% tfetch(QList<Grade>, gradeList) %>
+<% tfetch(QList<Color>, colorList) %>
+<% tfetch(QList<FuelType>, fuelList) %>
+<% tfetch(QList<DriveType>, driveList) %>
+<% tfetch(QList<BodyType>, bodyList) %>
+
+<% tfetch(QVariantMap, vehicle) %>
+<% tfetch(QString, err_title) %>
+<% tfetch(QString, err_detail) %>
+<% tfetch(QString, err_code) %>
+<% tfetch(QString, err_frameNo) %>
+<% tfetch(QString, err_manufacturingDate) %>
+<% tfetch(QString, err_depositDate) %>
+<% tfetch(QString, err_engine) %>
+<% tfetch(QString, err_mileage) %>
+<% tfetch(QString, err_vehicleStatus) %>
+<% tfetch(QString, err_inventoryStatus) %>
+<% tfetch(QString, err_price) %>
+    <div class="container"> <div class="row">
+        <div class="col-lg-12">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <i class="fa fa-globe"></i>
+                        Edit Vehicle
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <%== renderPartial("error") %>
+                    <%== renderPartial("flash") %>
+                    <form class="form-horizontal" method="POST" action="/admin/vehicle/save/<%=vehicle["id"] %>" enctype="multipart/form-data">
+                        <div class="row">
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="form-group is-empty px-5">
+                                            <div class="row">
+                                                <label for="inputManufacturingDate" class="control-label">Manufacturing Date</label>
+                                            </div>
+                                            <div class="row">
+                                                <% if(err_manufacturingDate == NULL) { %>
+                                                    <input type="text" id="inputManufacturingDate" class="datepicker form-control is-valid" name="vehicle[manufacturingDate]" value="<%= vehicle["manufacturingDate"] %>"/>
+                                                <% } else { %>
+                                                    <input type="text" id="inputManufacturingDate" class="datepicker form-control is-invalid" name="vehicle[manufacturingDate]" value="<%= vehicle["manufacturingDate"] %>"/>
+                                                    <div class="invalid-feedback">
+                                                        <%= err_manufacturingDate %>
+                                                    </div>
+                                                <% } %>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="form-group is-empty px-5">
+                                            <div class="row">
+                                                <label for="inputDepositDate" class="control-label">Deposit Date</label>
+                                            </div>
+                                            <div class="row">
+                                                <% if(err_depositDate == NULL) { %>
+                                                    <input type="text" id="inputDepositDate" class="datepicker form-control is-valid" name="vehicle[depositDate]" value="<%= vehicle["depositDate"] %>"/>
+                                                <% } else { %>
+                                                    <input type="text" id="inputDepositDate" class="datepicker form-control is-invalid" name="vehicle[depositDate]" value="<%= vehicle["depositDate"] %>"/>
+                                                    <div class="invalid-feedback">
+                                                        <%= err_depositDate %>
+                                                    </div>
+                                                <% } %>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="form-group row is-empty">
+                                            <label for="inputMake" autocomplete="false" class="col-lg-2 control-label">Make</label>
+                                            <div class="col-lg-10">
+                                                <select class="selectpicker form-control is-valid" id="inputMake" name="vehicle[makeId]">
+                                                    <% for (const auto &i : makeList) { %>
+                                                        <% if (vehicle["makeId"] == i.id()) { %>
+                                                            <option value="<%=i.id()%>" selected><%=i.name()%></option>
+                                                        <% } else { %>
+                                                            <option value="<%=i.id()%>"><%=i.name()%></option>
+                                                        <% } %>
+                                                    <% } %>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row is-empty">
+                                            <label for="inputModel" autocomplete="false" class="col-lg-2 control-label">Model</label>
+                                            <div class="col-lg-10">
+                                                <select class="selectpicker form-control is-valid" id="inputModel" name="vehicle[modelId]">
+                                                    <% for (const auto &i : modelList) { %>
+                                                        <% if (vehicle["modelId"] == i.id()) { %>
+                                                            <option value="<%=i.id()%>" selected><%=i.name()%></option>
+                                                        <% } else { %>
+                                                            <option value="<%=i.id()%>"><%=i.name()%></option>
+                                                        <% } %>
+                                                    <% } %>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row is-empty">
+                                            <label for="inputBody" autocomplete="false" class="col-lg-2 control-label">Body</label>
+                                            <div class="col-lg-10">
+                                                <select class="selectpicker form-control is-valid" id="inputBody" name="vehicle[bodyId]">
+                                                    <% for(const auto &i : bodyList) { %>
+                                                        <% if (vehicle["bodyId"] == i.id()) { %>
+                                                            <option value="<%=i.id()%>" selected><%=i.name()%></option>
+                                                        <% } else { %>
+                                                            <option value="<%=i.id()%>"><%=i.name()%></option>
+                                                        <% } %>
+                                                    <% } %>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row is-empty">
+                                            <label for="inputDrive" autocomplete="false" class="col-lg-2 control-label">Drive</label>
+                                            <div class="col-lg-10">
+                                                <select class="selectpicker form-control is-valid" id="inputDrive" name="vehicle[driveId]">
+                                                    <% for(const auto &i : driveList) { %>
+                                                        <% if (vehicle["driveId"] == i.id()) { %>
+                                                            <option value="<%=i.id()%>" selected><%=i.name()%></option>
+                                                        <% } else { %>
+                                                            <option value="<%=i.id()%>"><%=i.name()%></option>
+                                                        <% } %>
+                                                    <% } %>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row is-empty">
+                                            <label for="inputColor" autocomplete="false" class="col-lg-2 control-label">Color</label>
+                                            <div class="col-lg-10">
+                                                <select class="selectpicker form-control is-valid" id="inputColor" name="vehicle[colorId]">
+                                                    <% for(const auto &i : colorList) { %>
+                                                        <% if (vehicle["colorId"] == i.id()) { %>
+                                                            <option value="<%=i.id()%>" selected><%=i.name()%></option>
+                                                        <% } else { %>
+                                                            <option value="<%=i.id()%>"><%=i.name()%></option>
+                                                        <% } %>
+                                                    <% } %>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row is-empty">
+                                            <label for="inputGrade" autocomplete="false" class="col-lg-2 control-label">Grade</label>
+                                            <div class="col-lg-10">
+                                                <select class="selectpicker form-control is-valid" id="inputGrade" name="vehicle[gradeId]">
+                                                    <% for(const auto &i : gradeList) { %>
+                                                        <% if (vehicle["gradeId"] == i.id()) { %>
+                                                            <option value="<%=i.id()%>" selected><%=i.name()%></option>
+                                                        <% } else { %>
+                                                            <option value="<%=i.id()%>"><%=i.name()%></option>
+                                                        <% } %>
+                                                    <% } %>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row is-empty">
+                                            <label for="inputFuel" autocomplete="false" class="col-lg-2 control-label">Fuel</label>
+                                            <div class="col-lg-10">
+                                                <select class="selectpicker form-control is-valid" id="inputFuel" name="vehicle[fuelId]">
+                                                    <% for (const auto &i : fuelList) { %>
+                                                        <% if (vehicle["fuelId"] == i.id()) { %>
+                                                            <option value="<%=i.id()%>" selected><%=i.name()%></option>
+                                                        <% } else { %>
+                                                            <option value="<%=i.id()%>"><%=i.name()%></option>
+                                                        <% } %>
+                                                    <% } %>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="form-group row is-empty">
+                                            <label for="inputStatus" autocomplete="false" class="col-lg-2 control-label">Status</label>
+                                            <div class="col-lg-10">
+                                                <select class="selectpicker form-control is-valid" id="inputStatus" name="vehicle[vehicleStatus]">
+                                                    <% if (vehicle["vehicleStatus"] == "OLD") { %>
+                                                        <option value="OLD" selected>OLD</option>
+                                                        <option value="NEW">NEW</option>
+                                                    <% } else { %>
+                                                        <option value="OLD">OLD</option>
+                                                        <option value="NEW" selected>NEW</option>
+                                                    <% } %>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row is-empty">
+                                            <label for="inputInventoryStatus" autocomplete="false" class="col-lg-2 control-label">Inventory Status</label>
+                                            <div class="col-lg-10">
+                                                <select class="selectpicker form-control is-valid" id="inputInventoryStatus" name="vehicle[inventoryStatus]">
+                                                    <% if (vehicle["inventoryStatus"] == "SOLD") { %>
+                                                        <option value="SOLD" selected>SOLD</option>
+                                                        <option value="STOCKED">STOCKED</option>
+                                                    <% } else { %>
+                                                        <option value="SOLD">SOLD</option>
+                                                        <option value="STOCKED" selected>STOCKED</option>
+                                                    <% } %>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row is-empty">
+                                            <label for="inputTitle" autocomplete="false" class="col-lg-2 control-label">Title</label>
+                                            <div class="col-lg-10">
+                                                <% if(err_title == NULL) { %>
+                                                    <input type="text" class="form-control is-valid" id="inputTitle" placeholder="title" name="vehicle[title]" value="<%= vehicle["title"] %>"/>
+                                                <% } else { %>
+                                                    <input type="text" class="form-control is-invalid" id="inputTitle" placeholder="title" name="vehicle[title]" value="<%= vehicle["title"] %>"/>
+                                                    <div class="invalid-feedback">
+                                                        <%= err_title %>
+                                                    </div>
+                                                <% } %>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row is-empty">
+                                            <label for="inputFrameNo" class="col-lg-2 control-label">Frame No</label>
+                                            <div class="col-lg-10">
+                                                <% if(err_frameNo == NULL) { %>
+                                                    <input type="text" id="inputFrameNo" class="form-control is-valid" placeholder="frameNo" name="vehicle[frameNo]" value="<%= vehicle["frameNo"] %>"/>
+                                                <% } else { %>
+                                                    <input type="text" id="inputFrameNo" class="form-control is-invalid" placeholder="frameNo" name="vehicle[frameNo]" value="<%= vehicle["frameNo"] %>"/>
+                                                    <div class="invalid-feedback">
+                                                        <%= err_frameNo %>
+                                                    </div>
+                                                <% } %>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row is-empty">
+                                            <label for="inputCode" class="col-lg-2 control-label">Code</label>
+                                            <div class="col-lg-10">
+                                                <% if(err_code == NULL) { %>
+                                                    <input type="text" id="inputCode" class="form-control is-valid" placeholder="code" name="vehicle[code]" value="<%= vehicle["code"] %>" readonly=""/>
+                                                <% } else { %>
+                                                    <input type="text" id="inputCode" class="form-control is-invalid" placeholder="code" name="vehicle[code]" value="<%= vehicle["code"] %>" readonly=""/>
+                                                    <div class="invalid-feedback">
+                                                        <%= err_code %>
+                                                    </div>
+                                                <% } %>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row is-empty">
+                                            <label for="inputEngine" class="col-lg-2 control-label">Engine</label>
+                                            <div class="col-lg-10">
+                                                <% if(err_engine == NULL) { %>
+                                                    <input type="text" id="inputEngine" class="form-control is-valid" placeholder="engine" name="vehicle[engine]" value="<%= vehicle["engine"] %>"/>
+                                                <% } else { %>
+                                                    <input type="text" id="inputEngine" class="form-control is-invalid" placeholder="engine" name="vehicle[engine]" value="<%= vehicle["engine"] %>"/>
+                                                    <div class="invalid-feedback">
+                                                        <%= err_engine %>
+                                                    </div>
+                                                <% } %>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row is-empty">
+                                            <label for="inputMileage" class="col-lg-2 control-label">Mileage</label>
+                                            <div class="col-lg-10">
+                                                <% if(err_mileage == NULL) { %>
+                                                    <input type="text" id="inputMileage" class="form-control is-valid" placeholder="mileage" name="vehicle[mileage]" value="<%= vehicle["mileage"] %>"/>
+                                                <% } else { %>
+                                                    <input type="text" id="inputMileage" class="form-control is-invalid" placeholder="mileage" name="vehicle[mileage]" value="<%= vehicle["mileage"] %>"/>
+                                                    <div class="invalid-feedback">
+                                                        <%= err_mileage %>
+                                                    </div>
+                                                <% } %>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row is-empty">
+                                            <label for="inputDetail" class="col-lg-2 control-label">Detail</label>
+                                            <div class="col-lg-10">
+                                                <% if(err_detail == NULL) { %>
+                                                    <input type="text" class="editor form-control is-valid" placeholder="detail" name="vehicle[detail]" value="<%= vehicle["detail"] %>"/>
+                                                <% } else { %>
+                                                    <input type="text" class="editor form-control is-invalid" placeholder="detail" name="vehicle[detail]" value="<%= vehicle["detail"] %>"/>
+                                                    <div class="invalid-feedback">
+                                                        <%= err_detail %>
+                                                    </div>
+                                                <% } %>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group row justify-content-end">
+                            <div class="col-lg-10">
+                                <button type="submit" class="btn btn-raised btn-danger">Save</button>
+                                <a href="<%== urla("index") %>" class="btn btn-raised btn-info">Cancel</a>
+                            </div>
+                        </div>
+                    </form>
+
+                    <hr/>
+                    <div class="card">
+                        <div class="card-body">
+                            <form class="form-horizontal" method="POST" action="/admin/vehicle/gallery/upload/<%=vehicle["id"]%>" enctype="multipart/form-data">
+                                <fieldset class="container">
+                                    <div class="form-group row">
+                                        <label for="inputFile" class="col-lg-2 control-label">Files</label>
+                                        <div class="col-lg-10">
+                                            <input type="text" readonly="" class="form-control" placeholder="Browse..."/>
+                                            <input type="file" name="picture[]" id="inputFile" multiple=""/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col-lg-2"></div>
+                                        <div class="col-lg-10">
+                                            <input type="submit" class="btn btn-raised btn-royal" value="upload"/>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+
+                    <%#include "vehiclegallery.h"%>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <% tfetch(QList<VehicleGallery>, vehicleGallery); %>
+                                <% for (const auto &i : vehicleGallery) { %>
+                                    <div class="col-md-4 py-4">
+                                        <div class="thumbnail-container">
+                                            <figure class="ms-thumbnail">
+                                                <img src="<%= i.photo() %>" alt="..." class="img-fluid"/>
+                                                <figcaption class="ms-thumbnail-caption text-center">
+                                                    <div class="ms-thumbnail-caption-content">
+                                                        <h4 class="ms-thumbnail-caption-title mb-2">
+                                                            <%= i.photo() %>
+                                                        </h4>
+                                                        <a href="href=" javascript:void(0)"" class="btn-circle btn-circle-raised btn-circle-xs ml-1 mr-1 btn-circle-white color-warning" data-toggle="modal" data-target="#removeVehicleGalleryModal<%=i.id()%>">
+                                                            <i class="zmdi zmdi-delete"></i>
+                                                        </a>
+                                                    </div>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                        <div class="ripple-container"></div>
+                                    </div>
+                                    <!-- remove modal -->
+                                    <div class="modal modal-danger" id="removeVehicleGalleryModal<%=i.id()%>" tabindex="-1" role="dialog" aria-labelledby="removeVehicleGalleryModalLabel<%=i.id()%>">
+                                        <div class="modal-dialog modal-lg animated zoomIn animated-3x" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h3 class="modal-title color-secondary" id="removeVehicleGalleryModalLabel<%=i.id()%>">Remove Vehicle Photo</h3>
+                                                </div>
+                                                <div class="modal-body">
+
+                                                    <div class="card">
+                                                        <div class="card-body mx-auto">
+                                                            <a href="<%= i.photo() %>" data-lightbox="<%= i.photo() %>" data-title="<%= i.id() %>" class="img-thumbnail withripple">
+                                                                <div class="thumbnail-container" style="width: 300px;">
+                                                                    <img src="<%= i.photo() %>" class="img-fluid"></div>
+                                                                    <div class="ripple-container"></div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+
+                                                        <form class="form-horizontal" method="POST" action="/admin/vehicle/gallery/remove/<%=i.id()%>">
+                                                            <fieldset class="container">
+                                                                <div class="form-group row">
+                                                                    <div class="col-lg-10">
+                                                                        <h3>Are you sure to remove this vehicle image?</h3>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group row">
+                                                                    <div class="col-lg-10">
+                                                                        <button type="submit" class="btn btn-raised btn-danger">Yes</button>
+                                                                        <button type="button" class="btn btn-primary" data-dismiss="modal">No</button>
+                                                                    </div>
+                                                                </div>
+                                                            </fieldset>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <% } %>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

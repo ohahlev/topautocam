@@ -1,0 +1,132 @@
+<%#include "news.h"%>
+<%#include "newsgallery.h"%>
+<div class="ms-hero-page ms-hero-img-coffee ms-hero-bg-success ms-hero mb-6 ms-hero-material">
+  <span class="ms-hero-bg"></span>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-6 col-lg-7">
+        <div id="carousel-hero" class="carousel slide carousel-fade" data-ride="carousel" data-interval="8000">
+          <div class="carousel-inner" role="listbox">
+            <% tfetch(QString, foo) %>
+            <%== foo %>
+            <% tfetch(QList<News>, newsList); %>
+            <% for (const auto &i : newsList) { %>
+              <div class="carousel-item news-item">
+                <div class="carousel-caption">
+                  <div class="ms-hero-material-text-container">
+                    <header class="ms-hero-material-title animated slideInLeft animation-delay-5">
+                      <h1 class="animated fadeInLeft animation-delay-15 font-smoothing">
+                        <%== i.title() %>
+                      </h1>
+                      <h2 class="animated fadeInLeft animation-delay-18">
+                        <%== i.subline() %>
+                      </h2>
+                    </header>
+                    <ul class="ms-hero-material-list">
+                      <li class="">
+                        <div class="ms-list-icon animated zoomInUp animation-delay-18">
+                          <span class="ms-icon ms-icon-circle ms-icon-xlg color-warning shadow-3dp">
+                            <i class="zmdi zmdi-airplane"></i>
+                          </span>
+                        </div>
+                        <div class="ms-list-text animated fadeInRight animation-delay-19">
+                          <%== i.line1() %>
+                        </div>
+                      </li>
+                      <li class="">
+                        <div class="ms-list-icon animated zoomInUp animation-delay-20">
+                          <span class="ms-icon ms-icon-circle ms-icon-xlg color-success shadow-3dp">
+                            <i class="zmdi zmdi-bike"></i>
+                          </span>
+                        </div>
+                        <div class="ms-list-text animated fadeInRight animation-delay-21">
+                          <%== i.line2() %>
+                        </div>
+                      </li>
+                      <li class="">
+                        <div class="ms-list-icon animated zoomInUp animation-delay-22">
+                          <span class="ms-icon ms-icon-circle ms-icon-xlg color-danger shadow-3dp">
+                            <i class="zmdi zmdi-album"></i>
+                          </span>
+                        </div>
+                        <div class="ms-list-text animated fadeInRight animation-delay-23">
+                          <%== i.line3() %>
+                        </div>
+                      </li>
+                    </ul>
+                    <div class="ms-hero-material-buttons text-right" style="height:70px">
+                      <div class="ms-hero-material-buttons text-right">
+                        <!--
+                      <a href="javascript:void(0);"
+                                                class="btn btn-warning btn-raised animated fadeInLeft animation-delay-24 mr-2"><i
+                                                    class="zmdi zmdi-settings"></i> Personalize</a>
+                      <a href="javascript:void(0);"
+                                                class="btn btn-success btn-raised animated fadeInRight animation-delay-24"><i
+                                                    class="zmdi zmdi-download"></i> Download</a>
+                    -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <% } %>
+              <div class="carousel-controls">
+                <!-- Controls -->
+                <a class="left carousel-control animated zoomIn animation-delay-30" href="#carousel-hero"
+                                role="button" data-slide="prev">
+                  <i class="zmdi zmdi-chevron-left"></i>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control animated zoomIn animation-delay-30" href="#carousel-hero"
+                                role="button" data-slide="next">
+                  <i class="zmdi zmdi-chevron-right"></i>
+                  <span class="sr-only">Next</span>
+                </a>
+                <!--
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-hero" data-slide-to="0"
+                                    class="animated fadeInUpBig animation-delay-27 active"></li>
+                  <li data-target="#carousel-hero" data-slide-to="1"
+                                    class="animated fadeInUpBig animation-delay-28"></li>
+                  <li data-target="#carousel-hero" data-slide-to="2"
+                                    class="animated fadeInUpBig animation-delay-29"></li>
+                </ol>
+                -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-5">
+          <div class="ms-hero-img animated zoomInUp animation-delay-30">
+            <img src="/img/demo/mock-imac-material2.png" alt="" class="img-fluid">
+            <div id="carousel-hero-img" class="carousel carousel-fade slide" 
+            data-ride="carousel" data-interval="3000">
+              <!--
+              <ol class="carousel-indicators carousel-indicators-hero-img">
+                <li data-target="#carousel-hero-img" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-hero-img" data-slide-to="1"></li>
+                <li data-target="#carousel-hero-img" data-slide-to="2"></li>
+              </ol>
+              -->
+              <div class="carousel-inner" role="listbox">
+                <!--
+              <div class="ms-hero-img-slider carousel-item active">
+                <img src="/img/demo/hero1.png" alt="" class="img-fluid">
+              </div>
+              <div class="ms-hero-img-slider carousel-item">
+                <img src="/img/demo/hero3.png" alt="" class="img-fluid">
+              </div>
+              -->
+                <% tfetch(QList<NewsGallery>, newsGallery) %>
+                <% for (const auto &i : newsGallery) { %>
+                  <div class="ms-hero-img-slider carousel-item news-gallery">
+                    <img src="<%== i.image() %>" alt="" class="img-fluid">
+                  </div>
+                  <% } %>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>

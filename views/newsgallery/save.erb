@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<%#include "newsgallery.h" %>
+<% tfetch(QVariantMap, newsGallery); %>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title><%= controller()->name() + ": " + controller()->activeAction() %></title>
+</head>
+<body>
+<p style="color: red"><%=$ error %></p>
+<p style="color: green"><%=$ notice %></p>
+
+<h1>Editing News Gallery</h1>
+
+<%== formTag(urla("save", newsGallery["id"]), Tf::Post) %>
+  <p>
+    <label>ID<br /><input type="text" name="newsGallery[id]" value="<%= newsGallery["id"] %>" readonly="readonly" /></label>
+  </p>
+  <p>
+    <label>Image<br /><input type="text" name="newsGallery[image]" value="<%= newsGallery["image"] %>" /></label>
+  </p>
+  <p>
+    <label>Status<br /><input type="text" name="newsGallery[status]" value="<%= newsGallery["status"] %>" /></label>
+  </p>
+  <p>
+    <input type="submit" value="Save" />
+  </p>
+</form>
+
+<%== linkTo("Show", urla("show", newsGallery["id"])) %> |
+<%== linkTo("Back", urla("index")) %>
+</body>
+</html>

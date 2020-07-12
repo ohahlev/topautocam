@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<%#include "bodytype.h" %>
+<% tfetch(BodyType, bodyType); %>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title><%= controller()->name() + ": " + controller()->activeAction() %></title>
+</head>
+<body>
+<p style="color: red"><%=$ error %></p>
+<p style="color: green"><%=$ notice %></p>
+
+<h1>Showing Body Type</h1>
+<dt>ID</dt><dd><%= bodyType.id() %></dd><br />
+<dt>Name</dt><dd><%= bodyType.name() %></dd><br />
+<dt>Created at</dt><dd><%= bodyType.createdAt() %></dd><br />
+<dt>Updated at</dt><dd><%= bodyType.updatedAt() %></dd><br />
+
+<%== linkTo("Edit", urla("save", bodyType.id())) %> |
+<%== linkTo("Back", urla("index")) %>
+
+</body>
+</html>

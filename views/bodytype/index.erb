@@ -1,0 +1,86 @@
+<%#include "bodytype.h"%>
+<% tfetch(QString, notice) %>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">
+            <a href="/admin/body/create" class="btn-circle btn-circle-raised btn-circle-danger float-right">
+              <i class="fa fa-plus" style="margin-left: 10px"></i>
+            </a>
+            <i class="fa fa-globe"></i> Body Management
+          </h3>
+        </div>
+        <div class="panel-body">
+          <%== renderPartial("flash") %>
+          <div class="row" id="Container">
+            <% tfetch(QList<BodyType>, bodyTypeList) %>
+            <% for (const auto &i : bodyTypeList) { %>
+              <div class="col-lg-4 col-md-6 mix category-2" style="display: inline-block;" data-bound="">
+                <div class="card">
+                  <figure class="ms-thumbnail">
+                    <img src="/img/demo/port1.jpg" alt="" class="img-fluid fixed-height">
+                    <figcaption class="ms-thumbnail-caption text-center">
+                      <div class="ms-thumbnail-caption-content">
+                        <h4 class="ms-thumbnail-caption-title mb-2">
+                          <%== i.name() %>
+                        </h4>
+                        <a href="/admin/body/save/<%=i.id()%>" class="btn-circle btn-circle-raised btn-circle-xs mr-1 btn-circle-white color-danger">
+                          <i class="zmdi zmdi-edit"></i>
+                        </a>
+                        <a href=href="javascript:void(0)" 
+          class="btn-circle btn-circle-raised btn-circle-xs ml-1 mr-1 btn-circle-white color-warning"
+          data-toggle="modal" data-target="#removeBodyModel<%=i.id()%>">
+                          <i class="zmdi zmdi-delete"></i>
+                        </a>
+                      </div>
+                    </figcaption>
+                  </figure>
+                  <div class="card-body overflow-hidden text-center portfolio-item-caption d-none">
+                    <h3 class="color-primary no-mt">actions</h3>
+                    <p>here it is</p>
+                  </div>
+                </div>
+              </div>
+              <!-- remove modal -->
+              <div class="modal modal-danger" id="removeBodyModel<%=i.id()%>" tabindex="-1" role="dialog" aria-labelledby="removeBodyModelLabel<%=i.id()%>">
+                <div class="modal-dialog modal-lg animated zoomIn animated-3x" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="modal-title color-secondary" id="removeBodyModelLabel<%=i.id()%>">Remove Body</h3>
+                    </div>
+                    <div class="modal-body">
+                      <form class="form-horizontal" method="POST" action="body/remove/<%=i.id()%>">
+                        <fieldset class="container">
+                          <div class="form-group row">
+                            <div class="col-lg-10">
+                              <h3>Are you sure to remove this body?</h3>
+                              <div class="card">
+                                <div class="card-body">
+                                  <h3>
+                                    <%== i.name() %>
+                                  </h3>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-group row">
+                            <div class="col-lg-10">
+                              <button type="submit" class="btn btn-raised btn-danger">Yes</button>
+                              <button type="button" class="btn btn-primary" data-dismiss="modal">No</button>
+                            </div>
+                          </div>
+                        </fieldset>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <% } %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

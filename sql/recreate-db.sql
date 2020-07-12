@@ -1,0 +1,1 @@
+CREATE DATABASE topautocambodiadb DEFAULT CHARACTER SET utf8mb4;

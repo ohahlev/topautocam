@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<%#include "grade.h" %>
+<% tfetch(Grade, grade); %>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title><%= controller()->name() + ": " + controller()->activeAction() %></title>
+</head>
+<body>
+<p style="color: red"><%=$ error %></p>
+<p style="color: green"><%=$ notice %></p>
+
+<h1>Showing Grade</h1>
+<dt>ID</dt><dd><%= grade.id() %></dd><br />
+<dt>Name</dt><dd><%= grade.name() %></dd><br />
+<dt>Created at</dt><dd><%= grade.createdAt() %></dd><br />
+<dt>Updated at</dt><dd><%= grade.updatedAt() %></dd><br />
+
+<%== linkTo("Edit", urla("save", grade.id())) %> |
+<%== linkTo("Back", urla("index")) %>
+
+</body>
+</html>

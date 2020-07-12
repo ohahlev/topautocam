@@ -1,0 +1,23 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">
+      <a href="javascript:void(0)" class="btn-circle btn-circle-raised btn-circle-danger float-right" 
+      data-toggle="modal" data-target="#newPartModal">
+        <i class="fa fa-plus" style="margin-left: 10px"></i>
+      </a>
+      <i class="fa fa-globe"></i> Part Management
+    </h3>
+  </div>
+  <div class="panel-body">
+    <div class="row" id="Container">
+      <%== renderPartial("part_admin") %>
+    </div>
+    <div class="row">
+      <div class="col-lg-3">
+        <%== renderPartial("pager") %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%== renderPartial("part_admin_form_new") %>

@@ -1,0 +1,10 @@
+<% tfetch(QString, notice1) %>
+<% if(notice1 != NULL) { %>
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="alert alert-success alert-light alert-dismissible" role="alert">
+        <%=$ notice1 %>
+      </div>
+    </div>
+  </div>
+  <% } %>

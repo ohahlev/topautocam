@@ -1,0 +1,105 @@
+<%#include "vehicle.h" %>
+<% tfetch(QList<Vehicle>, vehicleList) %>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card card-primary">
+                <div class="card-header">
+                    <h3 class="card-title">
+                        <i class="fa fa-filter"></i>
+                        Filter List
+                    </h3>
+                </div>
+                <div class="card-body">
+                    <form class="form-horizontal" id="Filters">
+                        <fieldset></fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <a href="/admin/vehicle/create" class="btn-circle btn-circle-raised btn-circle-danger float-right">
+                            <i class="fa fa-plus" style="margin-left: 10px"></i>
+                        </a>
+                        <i class="fa fa-globe"></i>
+                        Vehicles
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <%== renderPartial("flash") %>
+                    <div class="row color-dark">
+                        <% for (const auto &i : vehicleList) { %>
+                            <div class="col-lg-4 col-md-6 mix laptop apple" data-price="1999.99" data-date="20160901">
+                                <div class="card wow zoomInUp" style="visibility: visible; animation-name: zoomInUp;">
+                                    <div class="card-body overflow-hidden text-center">
+                                        <a href="/admin/vehicle/save/<%=i.id()%>">
+                                            <img src="/media/model/alphard.jpg" alt="" class="img-fluid center-block"></a>
+                                            <h4 class="text-normal text-center"><%= i.getModel().name() %></h4>
+                                            <p><%= i.title() %></p>
+                                            <div class="mt-2">
+                                                <span class="mr-2">
+                                                    <i class="zmdi zmdi-star color-warning"></i>
+                                                    <i class="zmdi zmdi-star color-warning"></i>
+                                                    <i class="zmdi zmdi-star color-warning"></i>
+                                                    <i class="zmdi zmdi-star color-warning"></i>
+                                                    <i class="zmdi zmdi-star"></i>
+                                                </span>
+                                                <span class="ms-tag ms-tag-success">$
+                                                    <%= i.price() %></span>
+                                            </div>
+                                            <a href="javascript:void(0)" class="btn btn-danger btn-sm btn-block btn-raised mt-2 no-mb" data-toggle="modal" data-target="#removeVehicleModal<%=i.id()%>">
+                                                <i class="zmdi zmdi-delete"></i>
+                                                remove
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="modal modal-danger" id="removeVehicleModal<%=i.id()%>" tabindex="-1" role="dialog" aria-labelledby="removeVehicleModalLabel<%=i.id()%>">
+                                    <div class="modal-dialog modal-lg animated zoomIn animated-3x" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3 class="modal-title color-secondary" id="removeVehicleModalLabel<%=i.id()%>">Remove Vehicle</h3>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form class="form-horizontal" method="POST" action="vehicle/remove/<%=i.id()%>">
+                                                    <fieldset class="container">
+                                                        <div class="form-group row">
+                                                            <div class="col-lg-10">
+                                                                <h3>Are you sure to remove this vehicle?</h3>
+                                                                <div class="card">
+                                                                    <div class="card-body">
+                                                                        <p>
+                                                                            <%== i.title() %>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row">
+                                                            <div class="col-lg-10">
+                                                                <button type="submit" class="btn btn-raised btn-danger">Yes</button>
+                                                                <button type="button" class="btn btn-primary" data-dismiss="modal">No</button>
+                                                            </div>
+                                                        </div>
+                                                    </fieldset>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            <% } %>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<%#include "color.h" %>
+<% tfetch(Color, color); %>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title><%= controller()->name() + ": " + controller()->activeAction() %></title>
+</head>
+<body>
+<p style="color: red"><%=$ error %></p>
+<p style="color: green"><%=$ notice %></p>
+
+<h1>Showing Color</h1>
+<dt>ID</dt><dd><%= color.id() %></dd><br />
+<dt>Name</dt><dd><%= color.name() %></dd><br />
+<dt>Created at</dt><dd><%= color.createdAt() %></dd><br />
+<dt>Updated at</dt><dd><%= color.updatedAt() %></dd><br />
+
+<%== linkTo("Edit", urla("save", color.id())) %> |
+<%== linkTo("Back", urla("index")) %>
+
+</body>
+</html>

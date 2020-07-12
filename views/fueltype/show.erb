@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<%#include "fueltype.h" %>
+<% tfetch(FuelType, fuelType); %>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title><%= controller()->name() + ": " + controller()->activeAction() %></title>
+</head>
+<body>
+<p style="color: red"><%=$ error %></p>
+<p style="color: green"><%=$ notice %></p>
+
+<h1>Showing Fuel Type</h1>
+<dt>ID</dt><dd><%= fuelType.id() %></dd><br />
+<dt>Name</dt><dd><%= fuelType.name() %></dd><br />
+<dt>Created at</dt><dd><%= fuelType.createdAt() %></dd><br />
+<dt>Updated at</dt><dd><%= fuelType.updatedAt() %></dd><br />
+
+<%== linkTo("Edit", urla("save", fuelType.id())) %> |
+<%== linkTo("Back", urla("index")) %>
+
+</body>
+</html>

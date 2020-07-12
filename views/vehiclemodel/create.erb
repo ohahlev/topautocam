@@ -1,0 +1,59 @@
+<%#include "vehiclemodel.h" %>
+<% tfetch(QVariantMap, vehicleModel) %>
+<% tfetch(QString, err_name) %>
+<% tfetch(QString, err_logo) %>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">
+            <i class="fa fa-globe"></i> Create Model
+          </h3>
+        </div>
+        <div class="panel-body">
+          <%== renderPartial("error") %>
+          <form class="form-horizontal" method="POST" action="/admin/model/create" enctype="multipart/form-data">
+            <fieldset class="container">
+              <div class="form-group row is-empty">
+                <label for="inputName" autocomplete="false" 
+        class="col-lg-2 control-label">Name</label>
+                <div class="col-lg-10">
+                  <% if(err_name == NULL) { %>
+                    <input type="text" class="form-control is-valid" id="inputName" placeholder="name" name="vehicleModel[name]" value="<%= vehicleModel["name"] %>" />
+                    <% } else { %>
+                    <input type="text" class="form-control is-invalid" id="inputName" placeholder="name" name="vehicleModel[name]" value="<%= vehicleModel["name"] %>" />
+                    <div class="invalid-feedback">
+                      <%= err_name %>
+                    </div>
+                    <% } %>
+                  </div>
+                </div>
+                <div class="form-group row is-empty">
+                  <label for="inputLogo" class="col-lg-2 control-label">Logo</label>
+                  <div class="col-lg-10">
+                    <% if(err_logo == NULL) { %>
+                      <input type="text" readonly="" name="vehicleModel[logo]" class="form-control is-valid" placeholder="Browse...">
+                      <input type="file" id="inputLogo" name="logo" class="form-control" />
+                      <% } else { %>
+                      <input type="text" readonly="" name="vehicleModel[logo]" class="form-control is-invalid" placeholder="Browse...">
+                      <input type="file" id="inputLogo" name="logo" class="form-control" />
+                      <div class="invalid-feedback">
+                        <%= err_logo %>
+                      </div>
+                      <% } %>
+                    </div>
+                  </div>
+                  <div class="form-group row justify-content-end">
+                    <div class="col-lg-10">
+                      <button type="submit" class="btn btn-raised btn-danger">Create</button>
+                      <a href="<%== urla("index") %>" class="btn btn-raised btn-info">Cancel</a>
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>

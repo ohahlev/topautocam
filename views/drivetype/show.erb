@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<%#include "drivetype.h" %>
+<% tfetch(DriveType, driveType); %>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title><%= controller()->name() + ": " + controller()->activeAction() %></title>
+</head>
+<body>
+<p style="color: red"><%=$ error %></p>
+<p style="color: green"><%=$ notice %></p>
+
+<h1>Showing Drive Type</h1>
+<dt>ID</dt><dd><%= driveType.id() %></dd><br />
+<dt>Name</dt><dd><%= driveType.name() %></dd><br />
+<dt>Created at</dt><dd><%= driveType.createdAt() %></dd><br />
+<dt>Updated at</dt><dd><%= driveType.updatedAt() %></dd><br />
+
+<%== linkTo("Edit", urla("save", driveType.id())) %> |
+<%== linkTo("Back", urla("index")) %>
+
+</body>
+</html>

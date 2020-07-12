@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<%#include "news.h" %>
+<% tfetch(News, news); %>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title><%= controller()->name() + ": " + controller()->activeAction() %></title>
+</head>
+<body>
+<p style="color: red"><%=$ error %></p>
+<p style="color: green"><%=$ notice %></p>
+
+<h1>Showing News</h1>
+<dt>ID</dt><dd><%= news.id() %></dd><br />
+<dt>Title</dt><dd><%= news.title() %></dd><br />
+<dt>Subline</dt><dd><%= news.subline() %></dd><br />
+<dt>Status</dt><dd><%= news.status() %></dd><br />
+<dt>Line1</dt><dd><%= news.line1() %></dd><br />
+<dt>Line2</dt><dd><%= news.line2() %></dd><br />
+<dt>Line3</dt><dd><%= news.line3() %></dd><br />
+<dt>Created at</dt><dd><%= news.createdAt() %></dd><br />
+<dt>Updated at</dt><dd><%= news.updatedAt() %></dd><br />
+
+<%== linkTo("Edit", urla("save", news.id())) %> |
+<%== linkTo("Back", urla("index")) %>
+
+</body>
+</html>

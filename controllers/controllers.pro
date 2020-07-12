@@ -1,0 +1,41 @@
+TARGET = controller
+TEMPLATE = lib
+CONFIG += shared c++14 x86_64
+QT += network sql xml qml
+QT -= gui
+DEFINES += TF_DLL
+DESTDIR = ../lib
+INCLUDEPATH += ../helpers ../models
+DEPENDPATH  += ../helpers ../models
+LIBS += -L../lib -lhelper -lmodel
+MOC_DIR = .obj/
+OBJECTS_DIR = .obj/
+
+include(../appbase.pri)
+
+HEADERS += applicationcontroller.h
+SOURCES += applicationcontroller.cpp
+HEADERS += newscontroller.h
+SOURCES += newscontroller.cpp
+HEADERS += newsgallerycontroller.h
+SOURCES += newsgallerycontroller.cpp
+HEADERS += usercontroller.h
+SOURCES += usercontroller.cpp
+HEADERS += makecontroller.h
+SOURCES += makecontroller.cpp
+HEADERS += vehiclemodelcontroller.h
+SOURCES += vehiclemodelcontroller.cpp
+HEADERS += bodytypecontroller.h
+SOURCES += bodytypecontroller.cpp
+HEADERS += drivetypecontroller.h
+SOURCES += drivetypecontroller.cpp
+HEADERS += gradecontroller.h
+SOURCES += gradecontroller.cpp
+HEADERS += colorcontroller.h
+SOURCES += colorcontroller.cpp
+HEADERS += fueltypecontroller.h
+SOURCES += fueltypecontroller.cpp
+HEADERS += vehiclecontroller.h
+SOURCES += vehiclecontroller.cpp
+HEADERS += dashboardcontroller.h
+SOURCES += dashboardcontroller.cpp

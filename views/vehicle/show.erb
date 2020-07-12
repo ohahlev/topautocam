@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<%#include "vehicle.h" %>
+<% tfetch(Vehicle, vehicle); %>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title><%= controller()->name() + ": " + controller()->activeAction() %></title>
+    </head>
+    <body>
+        <p style="color: red"><%=$ error %></p>
+        <p style="color: green"><%=$ notice %></p>
+        <h1>Showing Vehicle</h1>
+        <dt>ID</dt>
+        <dd><%= vehicle.id() %></dd>
+        <br/>
+        <dt>Frame No</dt>
+        <dd><%= vehicle.frameNo() %></dd>
+        <br/>
+        <dt>Manufacturing Date</dt>
+        <dd><%= vehicle.manufacturingDate() %></dd>
+        <br/>
+        <dt>Deposit Date</dt>
+        <dd><%= vehicle.depositDate() %></dd>
+        <br/>
+        <dt>Code</dt>
+        <dd><%= vehicle.code() %></dd>
+        <br/>
+        <dt>Engine</dt>
+        <dd><%= vehicle.engine() %></dd>
+        <br/>
+        <dt>Mileage</dt>
+        <dd><%= vehicle.mileage() %></dd>
+        <br/>
+        <dt>Created at</dt>
+        <dd><%= vehicle.createdAt() %></dd>
+        <br/>
+        <dt>Updated at</dt>
+        <dd><%= vehicle.updatedAt() %></dd>
+        <br/>
+        <dt>Make ID</dt>
+        <dd><%= vehicle.makeId() %></dd>
+        <br/>
+        <dt>Model ID</dt>
+        <dd><%= vehicle.modelId() %></dd>
+        <br/>
+        <dt>Color ID</dt>
+        <dd><%= vehicle.colorId() %></dd>
+        <br/>
+        <dt>Grade ID</dt>
+        <dd><%= vehicle.gradeId() %></dd>
+        <br/>
+        <dt>Drive ID</dt>
+        <dd><%= vehicle.driveId() %></dd>
+        <br/>
+        <dt>Fuel ID</dt>
+        <dd><%= vehicle.fuelId() %></dd>
+        <br/>
+        <dt>Body ID</dt>
+        <dd><%= vehicle.bodyId() %></dd>
+        <br/>
+        <%== linkTo("Edit", urla("save", vehicle.id())) %>
+        |
+        <%== linkTo("Back", urla("index")) %>
+    </body>
+</html>
