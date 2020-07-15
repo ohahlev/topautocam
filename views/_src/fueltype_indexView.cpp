@@ -10,6 +10,7 @@
 #include "makevalidator.h"
 #include "newsvalidator.h"
 #include "vehiclemodelvalidator.h"
+#include "vehiclevalidator.h"
 
 class T_VIEW_EXPORT fueltype_indexView : public TActionView
 {

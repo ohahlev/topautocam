@@ -1,0 +1,10 @@
+[Unit]
+Description=topautocambodia.com
+
+[Service]
+Type=simple
+ExecStart=/var/www/topautocambodia.com/shell/start.sh
+ExecStop=/var/www/topautocambodia.com/shell/stop.sh
+
+[Install]
+WantedBy=multi-user.target

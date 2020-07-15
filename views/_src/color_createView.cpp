@@ -5,10 +5,12 @@
 #include "bodytypevalidator.h"
 #include "colorvalidator.h"
 #include "drivetypevalidator.h"
+#include "fueltypevalidator.h"
 #include "gradevalidator.h"
 #include "makevalidator.h"
 #include "newsvalidator.h"
 #include "vehiclemodelvalidator.h"
+#include "vehiclevalidator.h"
 
 class T_VIEW_EXPORT color_createView : public TActionView
 {
