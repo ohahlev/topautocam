@@ -1,3 +1,3 @@
 #!bin/sh
-certbot certonly -d topautocambodia.com -d www.topautocambodia.com
+certbot certonly -d topautocam.com -d www.topautocam.com
 

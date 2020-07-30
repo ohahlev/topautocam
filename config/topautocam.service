@@ -1,0 +1,10 @@
+[Unit]
+Description=topautocam.com
+
+[Service]
+Type=simple
+ExecStart=/var/www/topautocam/shell/start.sh
+ExecStop=/var/www/topautocam/shell/stop.sh
+
+[Install]
+WantedBy=multi-user.target

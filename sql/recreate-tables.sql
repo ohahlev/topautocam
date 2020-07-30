@@ -1,5 +1,5 @@
 
-USE topautocambodiadb;
+USE topautocamdb;
 
 DROP TABLE IF EXISTS blog;
 

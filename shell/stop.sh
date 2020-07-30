@@ -1,3 +1,3 @@
 #!/bin/sh
-cd /var/www/topautocambodia.com
+cd /var/www/topautocam.com
 treefrog -k stop
