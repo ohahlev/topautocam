@@ -1,0 +1,224 @@
+{
+	"BUILD_DIR" : "/home/ahlev/Projects/cplusplus/topautocam/models/model_autogen",
+	"CMAKE_BINARY_DIR" : "/home/ahlev/Projects/cplusplus/topautocam",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/ahlev/Projects/cplusplus/topautocam/models",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/ahlev/Projects/cplusplus/topautocam/models",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/home/ahlev/Projects/cplusplus/topautocam",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/models/bodytype.h",
+			"Mu",
+			"EWIEGA46WW/moc_bodytype.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/models/color.h",
+			"Mu",
+			"EWIEGA46WW/moc_color.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/models/drivetype.h",
+			"Mu",
+			"EWIEGA46WW/moc_drivetype.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/models/fueltype.h",
+			"Mu",
+			"EWIEGA46WW/moc_fueltype.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/models/grade.h",
+			"Mu",
+			"EWIEGA46WW/moc_grade.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/models/make.h",
+			"Mu",
+			"EWIEGA46WW/moc_make.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/models/news.h",
+			"Mu",
+			"EWIEGA46WW/moc_news.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/models/newsgallery.h",
+			"Mu",
+			"EWIEGA46WW/moc_newsgallery.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects/bodytypeobject.h",
+			"Mu",
+			"U7BSQOHBDD/moc_bodytypeobject.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects/colorobject.h",
+			"Mu",
+			"U7BSQOHBDD/moc_colorobject.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects/drivetypeobject.h",
+			"Mu",
+			"U7BSQOHBDD/moc_drivetypeobject.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects/fueltypeobject.h",
+			"Mu",
+			"U7BSQOHBDD/moc_fueltypeobject.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects/gradeobject.h",
+			"Mu",
+			"U7BSQOHBDD/moc_gradeobject.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects/makeobject.h",
+			"Mu",
+			"U7BSQOHBDD/moc_makeobject.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects/newsgalleryobject.h",
+			"Mu",
+			"U7BSQOHBDD/moc_newsgalleryobject.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects/newsobject.h",
+			"Mu",
+			"U7BSQOHBDD/moc_newsobject.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects/userobject.h",
+			"Mu",
+			"U7BSQOHBDD/moc_userobject.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects/vehiclegalleryobject.h",
+			"Mu",
+			"U7BSQOHBDD/moc_vehiclegalleryobject.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects/vehiclemodelobject.h",
+			"Mu",
+			"U7BSQOHBDD/moc_vehiclemodelobject.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects/vehicleobject.h",
+			"Mu",
+			"U7BSQOHBDD/moc_vehicleobject.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/models/user.h",
+			"Mu",
+			"EWIEGA46WW/moc_user.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/models/vehicle.h",
+			"Mu",
+			"EWIEGA46WW/moc_vehicle.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/models/vehiclegallery.h",
+			"Mu",
+			"EWIEGA46WW/moc_vehiclegallery.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/models/vehiclemodel.h",
+			"Mu",
+			"EWIEGA46WW/moc_vehiclemodel.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/ahlev/Projects/cplusplus/topautocam/models/model_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/ahlev/Projects/cplusplus/topautocam/models/model_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_SQL_LIB",
+		"QT_XML_LIB",
+		"TF_DLL",
+		"model_EXPORTS"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/usr/include/treefrog",
+		"/home/ahlev/Projects/cplusplus/topautocam/models",
+		"/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects",
+		"/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects",
+		"/usr/include/QtCore",
+		"/usr/lib64/qt5/mkspecs/linux-g++",
+		"/usr/include/QtNetwork",
+		"/usr/include/QtXml",
+		"/usr/include/QtSql",
+		"/usr/include/QtConcurrent",
+		"/usr/include",
+		"/usr/include/c++/9",
+		"/usr/include/c++/9/x86_64-solus-linux",
+		"/usr/include/c++/9/backward",
+		"/usr/lib64/gcc/x86_64-solus-linux/9/include",
+		"/usr/local/include",
+		"/usr/lib64/gcc/x86_64-solus-linux/9/include-fixed"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/ahlev/Projects/cplusplus/topautocam/models/model_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/ahlev/Projects/cplusplus/topautocam/models/CMakeFiles/model_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 14,
+	"SETTINGS_FILE" : "/home/ahlev/Projects/cplusplus/topautocam/models/CMakeFiles/model_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/home/ahlev/Projects/cplusplus/topautocam/models/bodytype.cpp", "Mu" ],
+		[ "/home/ahlev/Projects/cplusplus/topautocam/models/color.cpp", "Mu" ],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/models/drivetype.cpp",
+			"Mu"
+		],
+		[ "/home/ahlev/Projects/cplusplus/topautocam/models/fueltype.cpp", "Mu" ],
+		[ "/home/ahlev/Projects/cplusplus/topautocam/models/grade.cpp", "Mu" ],
+		[ "/home/ahlev/Projects/cplusplus/topautocam/models/make.cpp", "Mu" ],
+		[ "/home/ahlev/Projects/cplusplus/topautocam/models/news.cpp", "Mu" ],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/models/newsgallery.cpp",
+			"Mu"
+		],
+		[ "/home/ahlev/Projects/cplusplus/topautocam/models/user.cpp", "Mu" ],
+		[ "/home/ahlev/Projects/cplusplus/topautocam/models/vehicle.cpp", "Mu" ],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/models/vehiclegallery.cpp",
+			"Mu"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/models/vehiclemodel.cpp",
+			"Mu"
+		]
+	],
+	"VERBOSITY" : 0
+}

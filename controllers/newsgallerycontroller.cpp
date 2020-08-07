@@ -59,7 +59,7 @@ void NewsGalleryController::postRemove(const QString &id)
 
     auto newsGallery = NewsGallery::get(id.toInt());
     newsGallery.remove();
-    
+
     QString notice = "Removed successfully.";
     tflash(notice);
     redirect(urla("index"));

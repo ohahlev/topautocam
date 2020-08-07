@@ -111,9 +111,12 @@ void GradeController::postRemove(const QString &id)
     bool removed = grade.remove();
 
     QString notice;
-    if(removed == true) {
-    notice = "Removed successfully.";
-    } else {
+    if (removed == true)
+    {
+        notice = "Removed successfully.";
+    }
+    else
+    {
         notice = "Failed to remove.";
     }
     redirect(urla("index"));

@@ -1,0 +1,602 @@
+[
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/helpers",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_NO_DEBUG -DTF_DLL -Dhelper_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/helpers/helper_autogen/include -I/usr/include/treefrog -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/helper.dir/helper_autogen/mocs_compilation.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/helpers/helper_autogen/mocs_compilation.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/helpers/helper_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/helpers",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_NO_DEBUG -DTF_DLL -Dhelper_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/helpers/helper_autogen/include -I/usr/include/treefrog -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/helper.dir/applicationhelper.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/helpers/applicationhelper.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/helpers/applicationhelper.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/helpers",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_NO_DEBUG -DTF_DLL -Dhelper_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/helpers/helper_autogen/include -I/usr/include/treefrog -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/helper.dir/bodytypevalidator.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/helpers/bodytypevalidator.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/helpers/bodytypevalidator.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/helpers",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_NO_DEBUG -DTF_DLL -Dhelper_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/helpers/helper_autogen/include -I/usr/include/treefrog -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/helper.dir/colorvalidator.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/helpers/colorvalidator.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/helpers/colorvalidator.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/helpers",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_NO_DEBUG -DTF_DLL -Dhelper_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/helpers/helper_autogen/include -I/usr/include/treefrog -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/helper.dir/drivetypevalidator.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/helpers/drivetypevalidator.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/helpers/drivetypevalidator.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/helpers",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_NO_DEBUG -DTF_DLL -Dhelper_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/helpers/helper_autogen/include -I/usr/include/treefrog -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/helper.dir/fueltypevalidator.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/helpers/fueltypevalidator.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/helpers/fueltypevalidator.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/helpers",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_NO_DEBUG -DTF_DLL -Dhelper_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/helpers/helper_autogen/include -I/usr/include/treefrog -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/helper.dir/gradevalidator.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/helpers/gradevalidator.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/helpers/gradevalidator.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/helpers",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_NO_DEBUG -DTF_DLL -Dhelper_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/helpers/helper_autogen/include -I/usr/include/treefrog -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/helper.dir/makevalidator.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/helpers/makevalidator.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/helpers/makevalidator.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/helpers",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_NO_DEBUG -DTF_DLL -Dhelper_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/helpers/helper_autogen/include -I/usr/include/treefrog -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/helper.dir/newsvalidator.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/helpers/newsvalidator.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/helpers/newsvalidator.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/helpers",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_NO_DEBUG -DTF_DLL -Dhelper_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/helpers/helper_autogen/include -I/usr/include/treefrog -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/helper.dir/vehiclemodelvalidator.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/helpers/vehiclemodelvalidator.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/helpers/vehiclemodelvalidator.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/helpers",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_NO_DEBUG -DTF_DLL -Dhelper_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/helpers/helper_autogen/include -I/usr/include/treefrog -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/helper.dir/vehiclevalidator.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/helpers/vehiclevalidator.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/helpers/vehiclevalidator.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/models",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dmodel_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/models/model_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/model.dir/model_autogen/mocs_compilation.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/models/model_autogen/mocs_compilation.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/models/model_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/models",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dmodel_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/models/model_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/model.dir/bodytype.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/models/bodytype.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/models/bodytype.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/models",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dmodel_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/models/model_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/model.dir/color.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/models/color.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/models/color.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/models",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dmodel_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/models/model_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/model.dir/drivetype.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/models/drivetype.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/models/drivetype.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/models",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dmodel_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/models/model_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/model.dir/fueltype.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/models/fueltype.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/models/fueltype.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/models",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dmodel_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/models/model_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/model.dir/grade.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/models/grade.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/models/grade.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/models",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dmodel_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/models/model_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/model.dir/make.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/models/make.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/models/make.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/models",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dmodel_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/models/model_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/model.dir/news.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/models/news.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/models/news.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/models",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dmodel_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/models/model_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/model.dir/newsgallery.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/models/newsgallery.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/models/newsgallery.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/models",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dmodel_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/models/model_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/model.dir/user.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/models/user.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/models/user.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/models",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dmodel_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/models/model_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/model.dir/vehicle.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/models/vehicle.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/models/vehicle.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/models",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dmodel_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/models/model_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/model.dir/vehiclegallery.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/models/vehiclegallery.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/models/vehiclegallery.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/models",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dmodel_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/models/model_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/model.dir/vehiclemodel.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/models/vehiclemodel.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/models/vehiclemodel.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/view_autogen/mocs_compilation.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/mocs_compilation.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/bodytype_createView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/bodytype_createView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/bodytype_createView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/bodytype_indexView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/bodytype_indexView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/bodytype_indexView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/bodytype_saveView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/bodytype_saveView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/bodytype_saveView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/bodytype_showView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/bodytype_showView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/bodytype_showView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/color_createView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/color_createView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/color_createView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/color_indexView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/color_indexView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/color_indexView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/color_saveView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/color_saveView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/color_saveView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/color_showView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/color_showView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/color_showView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/dashboard_indexView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/dashboard_indexView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/dashboard_indexView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/drivetype_createView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/drivetype_createView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/drivetype_createView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/drivetype_indexView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/drivetype_indexView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/drivetype_indexView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/drivetype_saveView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/drivetype_saveView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/drivetype_saveView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/drivetype_showView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/drivetype_showView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/drivetype_showView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/fueltype_createView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/fueltype_createView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/fueltype_createView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/fueltype_indexView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/fueltype_indexView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/fueltype_indexView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/fueltype_saveView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/fueltype_saveView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/fueltype_saveView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/fueltype_showView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/fueltype_showView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/fueltype_showView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/grade_createView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/grade_createView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/grade_createView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/grade_indexView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/grade_indexView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/grade_indexView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/grade_saveView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/grade_saveView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/grade_saveView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/grade_showView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/grade_showView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/grade_showView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/layouts_applicationView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/layouts_applicationView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/layouts_applicationView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/layouts_backendView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/layouts_backendView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/layouts_backendView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/layouts_loginView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/layouts_loginView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/layouts_loginView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/make_createView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/make_createView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/make_createView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/make_indexView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/make_indexView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/make_indexView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/make_saveView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/make_saveView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/make_saveView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/make_showView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/make_showView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/make_showView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/news_createView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/news_createView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/news_createView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/news_indexView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/news_indexView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/news_indexView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/news_saveView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/news_saveView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/news_saveView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/news_showView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/news_showView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/news_showView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/newsgallery_createView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/newsgallery_createView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/newsgallery_createView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/newsgallery_indexView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/newsgallery_indexView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/newsgallery_indexView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/newsgallery_saveView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/newsgallery_saveView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/newsgallery_saveView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/newsgallery_showView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/newsgallery_showView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/newsgallery_showView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_brandView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_brandView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_brandView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_brand_adminView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_brand_adminView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_brand_adminView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_carouselView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_carouselView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_carouselView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_carousel_bakView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_carousel_bakView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_carousel_bakView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_errorView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_errorView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_errorView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_filterView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_filterView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_filterView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_flash1View.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_flash1View.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_flash1View.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_flashView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_flashView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_flashView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_footerView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_footerView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_footerView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_headerView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_headerView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_headerView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_heroView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_heroView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_heroView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_itemView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_itemView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_itemView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_login_modalView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_login_modalView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_login_modalView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_make_filterView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_make_filterView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_make_filterView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_make_form_editView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_make_form_editView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_make_form_editView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_make_form_newView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_make_form_newView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_make_form_newView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_make_removeView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_make_removeView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_make_removeView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_make_resultView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_make_resultView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_make_resultView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_model_filterView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_model_filterView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_model_filterView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_model_form_editView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_model_form_editView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_model_form_editView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_model_form_newView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_model_form_newView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_model_form_newView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_model_removeView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_model_removeView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_model_removeView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_model_resultView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_model_resultView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_model_resultView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_navView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_navView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_navView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_nav_adminView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_nav_adminView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_nav_adminView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_offersView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_offersView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_offersView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_pagerView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_pagerView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_pagerView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_part_adminView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_part_adminView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_part_adminView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_part_admin_filterView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_part_admin_filterView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_part_admin_filterView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_part_admin_form_editView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_part_admin_form_editView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_part_admin_form_editView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_part_admin_form_newView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_part_admin_form_newView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_part_admin_form_newView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_part_admin_removeView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_part_admin_removeView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_part_admin_removeView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_part_admin_resultView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_part_admin_resultView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_part_admin_resultView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_partsView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_partsView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_partsView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_sidebarView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_sidebarView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_sidebarView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_vehicle_detailView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_vehicle_detailView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_vehicle_detailView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/partial_vehiclesView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/partial_vehiclesView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/partial_vehiclesView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/vehicle_createView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/vehicle_createView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/vehicle_createView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/vehicle_indexView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/vehicle_indexView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/vehicle_indexView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/vehicle_saveView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/vehicle_saveView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/vehicle_saveView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/vehicle_showView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/vehicle_showView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/vehicle_showView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/vehiclemodel_createView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/vehiclemodel_createView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/vehiclemodel_createView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/vehiclemodel_indexView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/vehiclemodel_indexView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/vehiclemodel_indexView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/vehiclemodel_saveView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/vehiclemodel_saveView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/vehiclemodel_saveView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/views",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dview_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/views/view_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/view.dir/vehiclemodel_showView.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/views/vehiclemodel_showView.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/views/vehiclemodel_showView.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/controllers",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dcontroller_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/controllers/controller_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/controller.dir/controller_autogen/mocs_compilation.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/controllers/controller_autogen/mocs_compilation.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/controllers/controller_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/controllers",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dcontroller_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/controllers/controller_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/controller.dir/applicationcontroller.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/controllers/applicationcontroller.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/controllers/applicationcontroller.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/controllers",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dcontroller_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/controllers/controller_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/controller.dir/bodytypecontroller.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/controllers/bodytypecontroller.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/controllers/bodytypecontroller.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/controllers",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dcontroller_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/controllers/controller_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/controller.dir/colorcontroller.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/controllers/colorcontroller.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/controllers/colorcontroller.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/controllers",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dcontroller_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/controllers/controller_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/controller.dir/dashboardcontroller.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/controllers/dashboardcontroller.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/controllers/dashboardcontroller.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/controllers",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dcontroller_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/controllers/controller_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/controller.dir/drivetypecontroller.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/controllers/drivetypecontroller.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/controllers/drivetypecontroller.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/controllers",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dcontroller_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/controllers/controller_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/controller.dir/fueltypecontroller.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/controllers/fueltypecontroller.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/controllers/fueltypecontroller.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/controllers",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dcontroller_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/controllers/controller_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/controller.dir/gradecontroller.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/controllers/gradecontroller.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/controllers/gradecontroller.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/controllers",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dcontroller_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/controllers/controller_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/controller.dir/makecontroller.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/controllers/makecontroller.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/controllers/makecontroller.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/controllers",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dcontroller_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/controllers/controller_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/controller.dir/newscontroller.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/controllers/newscontroller.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/controllers/newscontroller.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/controllers",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dcontroller_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/controllers/controller_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/controller.dir/newsgallerycontroller.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/controllers/newsgallerycontroller.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/controllers/newsgallerycontroller.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/controllers",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dcontroller_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/controllers/controller_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/controller.dir/usercontroller.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/controllers/usercontroller.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/controllers/usercontroller.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/controllers",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dcontroller_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/controllers/controller_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/controller.dir/vehiclecontroller.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/controllers/vehiclecontroller.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/controllers/vehiclecontroller.cpp"
+},
+{
+  "directory": "/home/ahlev/Projects/cplusplus/topautocam/controllers",
+  "command": "/usr/bin/c++  -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_XML_LIB -DTF_DLL -Dcontroller_EXPORTS -I/home/ahlev/Projects/cplusplus/topautocam/controllers/controller_autogen/include -I/usr/include/treefrog -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects -I/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects -isystem /usr/include/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/QtNetwork -isystem /usr/include/QtXml -isystem /usr/include/QtSql -isystem /usr/include/QtConcurrent  -Wall -W -D_REENTRANT -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/controller.dir/vehiclemodelcontroller.cpp.o -c /home/ahlev/Projects/cplusplus/topautocam/controllers/vehiclemodelcontroller.cpp",
+  "file": "/home/ahlev/Projects/cplusplus/topautocam/controllers/vehiclemodelcontroller.cpp"
+}
+]

@@ -1,0 +1,198 @@
+{
+	"BUILD_DIR" : "/home/ahlev/Projects/cplusplus/topautocam/controllers/controller_autogen",
+	"CMAKE_BINARY_DIR" : "/home/ahlev/Projects/cplusplus/topautocam",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/ahlev/Projects/cplusplus/topautocam/controllers",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/ahlev/Projects/cplusplus/topautocam/controllers",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/home/ahlev/Projects/cplusplus/topautocam",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/controllers/applicationcontroller.h",
+			"Mu",
+			"EWIEGA46WW/moc_applicationcontroller.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/controllers/bodytypecontroller.h",
+			"Mu",
+			"EWIEGA46WW/moc_bodytypecontroller.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/controllers/colorcontroller.h",
+			"Mu",
+			"EWIEGA46WW/moc_colorcontroller.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/controllers/dashboardcontroller.h",
+			"Mu",
+			"EWIEGA46WW/moc_dashboardcontroller.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/controllers/drivetypecontroller.h",
+			"Mu",
+			"EWIEGA46WW/moc_drivetypecontroller.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/controllers/fueltypecontroller.h",
+			"Mu",
+			"EWIEGA46WW/moc_fueltypecontroller.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/controllers/gradecontroller.h",
+			"Mu",
+			"EWIEGA46WW/moc_gradecontroller.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/controllers/makecontroller.h",
+			"Mu",
+			"EWIEGA46WW/moc_makecontroller.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/controllers/newscontroller.h",
+			"Mu",
+			"EWIEGA46WW/moc_newscontroller.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/controllers/newsgallerycontroller.h",
+			"Mu",
+			"EWIEGA46WW/moc_newsgallerycontroller.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/controllers/usercontroller.h",
+			"Mu",
+			"EWIEGA46WW/moc_usercontroller.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/controllers/vehiclecontroller.h",
+			"Mu",
+			"EWIEGA46WW/moc_vehiclecontroller.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/controllers/vehiclemodelcontroller.h",
+			"Mu",
+			"EWIEGA46WW/moc_vehiclemodelcontroller.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/ahlev/Projects/cplusplus/topautocam/controllers/controller_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/ahlev/Projects/cplusplus/topautocam/controllers/controller_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_SQL_LIB",
+		"QT_XML_LIB",
+		"TF_DLL",
+		"controller_EXPORTS"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/usr/include/treefrog",
+		"/home/ahlev/Projects/cplusplus/topautocam/helpers",
+		"/home/ahlev/Projects/cplusplus/topautocam/models",
+		"/home/ahlev/Projects/cplusplus/topautocam/models/sqlobjects",
+		"/home/ahlev/Projects/cplusplus/topautocam/models/mongoobjects",
+		"/usr/include/QtCore",
+		"/usr/lib64/qt5/mkspecs/linux-g++",
+		"/usr/include/QtNetwork",
+		"/usr/include/QtXml",
+		"/usr/include/QtSql",
+		"/usr/include/QtConcurrent",
+		"/usr/include",
+		"/usr/include/c++/9",
+		"/usr/include/c++/9/x86_64-solus-linux",
+		"/usr/include/c++/9/backward",
+		"/usr/lib64/gcc/x86_64-solus-linux/9/include",
+		"/usr/local/include",
+		"/usr/lib64/gcc/x86_64-solus-linux/9/include-fixed"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/ahlev/Projects/cplusplus/topautocam/controllers/controller_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/ahlev/Projects/cplusplus/topautocam/controllers/CMakeFiles/controller_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 14,
+	"SETTINGS_FILE" : "/home/ahlev/Projects/cplusplus/topautocam/controllers/CMakeFiles/controller_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/controllers/applicationcontroller.cpp",
+			"Mu"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/controllers/bodytypecontroller.cpp",
+			"Mu"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/controllers/colorcontroller.cpp",
+			"Mu"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/controllers/dashboardcontroller.cpp",
+			"Mu"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/controllers/drivetypecontroller.cpp",
+			"Mu"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/controllers/fueltypecontroller.cpp",
+			"Mu"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/controllers/gradecontroller.cpp",
+			"Mu"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/controllers/makecontroller.cpp",
+			"Mu"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/controllers/newscontroller.cpp",
+			"Mu"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/controllers/newsgallerycontroller.cpp",
+			"Mu"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/controllers/usercontroller.cpp",
+			"Mu"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/controllers/vehiclecontroller.cpp",
+			"Mu"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/controllers/vehiclemodelcontroller.cpp",
+			"Mu"
+		]
+	],
+	"VERBOSITY" : 0
+}

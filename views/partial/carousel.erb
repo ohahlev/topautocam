@@ -117,8 +117,8 @@
                 <img src="/img/demo/hero3.png" alt="" class="img-fluid">
               </div>
               -->
-                <% tfetch(QList<NewsGallery>, newsGallery) %>
-                <% for (const auto &i : newsGallery) { %>
+                <% tfetch(QList<NewsGallery>, newsGalleryList) %>
+                <% for (const auto &i : newsGalleryList) { %>
                   <div class="ms-hero-img-slider carousel-item news-gallery">
                     <img src="<%== i.image() %>" alt="" class="img-fluid">
                   </div>

@@ -1,0 +1,153 @@
+{
+	"BUILD_DIR" : "/home/ahlev/Projects/cplusplus/topautocam/helpers/helper_autogen",
+	"CMAKE_BINARY_DIR" : "/home/ahlev/Projects/cplusplus/topautocam",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/ahlev/Projects/cplusplus/topautocam/helpers",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/ahlev/Projects/cplusplus/topautocam/helpers",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/home/ahlev/Projects/cplusplus/topautocam",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/helpers/applicationhelper.h",
+			"Mu",
+			"EWIEGA46WW/moc_applicationhelper.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/helpers/bodytypevalidator.h",
+			"Mu",
+			"EWIEGA46WW/moc_bodytypevalidator.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/helpers/colorvalidator.h",
+			"Mu",
+			"EWIEGA46WW/moc_colorvalidator.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/helpers/drivetypevalidator.h",
+			"Mu",
+			"EWIEGA46WW/moc_drivetypevalidator.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/helpers/fueltypevalidator.h",
+			"Mu",
+			"EWIEGA46WW/moc_fueltypevalidator.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/helpers/gradevalidator.h",
+			"Mu",
+			"EWIEGA46WW/moc_gradevalidator.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/helpers/makevalidator.h",
+			"Mu",
+			"EWIEGA46WW/moc_makevalidator.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/helpers/newsvalidator.h",
+			"Mu",
+			"EWIEGA46WW/moc_newsvalidator.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/helpers/vehiclemodelvalidator.h",
+			"Mu",
+			"EWIEGA46WW/moc_vehiclemodelvalidator.cpp"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/helpers/vehiclevalidator.h",
+			"Mu",
+			"EWIEGA46WW/moc_vehiclevalidator.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/ahlev/Projects/cplusplus/topautocam/helpers/helper_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/ahlev/Projects/cplusplus/topautocam/helpers/helper_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_NO_DEBUG", "TF_DLL", "helper_EXPORTS" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/usr/include/treefrog",
+		"/usr/include/QtCore",
+		"/usr/lib64/qt5/mkspecs/linux-g++",
+		"/usr/include",
+		"/usr/include/c++/9",
+		"/usr/include/c++/9/x86_64-solus-linux",
+		"/usr/include/c++/9/backward",
+		"/usr/lib64/gcc/x86_64-solus-linux/9/include",
+		"/usr/local/include",
+		"/usr/lib64/gcc/x86_64-solus-linux/9/include-fixed"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/ahlev/Projects/cplusplus/topautocam/helpers/helper_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/ahlev/Projects/cplusplus/topautocam/helpers/CMakeFiles/helper_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 14,
+	"SETTINGS_FILE" : "/home/ahlev/Projects/cplusplus/topautocam/helpers/CMakeFiles/helper_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/helpers/applicationhelper.cpp",
+			"Mu"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/helpers/bodytypevalidator.cpp",
+			"Mu"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/helpers/colorvalidator.cpp",
+			"Mu"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/helpers/drivetypevalidator.cpp",
+			"Mu"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/helpers/fueltypevalidator.cpp",
+			"Mu"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/helpers/gradevalidator.cpp",
+			"Mu"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/helpers/makevalidator.cpp",
+			"Mu"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/helpers/newsvalidator.cpp",
+			"Mu"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/helpers/vehiclemodelvalidator.cpp",
+			"Mu"
+		],
+		[
+			"/home/ahlev/Projects/cplusplus/topautocam/helpers/vehiclevalidator.cpp",
+			"Mu"
+		]
+	],
+	"VERBOSITY" : 0
+}
