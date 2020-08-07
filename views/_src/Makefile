@@ -94,7 +94,6 @@ SOURCES       = bodytype_createView.cpp \
 		partial_carouselView.cpp \
 		partial_carousel_bakView.cpp \
 		partial_errorView.cpp \
-		partial_filterView.cpp \
 		partial_flashView.cpp \
 		partial_flash1View.cpp \
 		partial_footerView.cpp \
@@ -125,6 +124,7 @@ SOURCES       = bodytype_createView.cpp \
 		partial_partsView.cpp \
 		partial_sidebarView.cpp \
 		partial_vehicle_detailView.cpp \
+		partial_vehicle_filterView.cpp \
 		partial_vehiclesView.cpp \
 		publicvehicle_indexView.cpp \
 		user_formView.cpp \
@@ -179,7 +179,6 @@ OBJECTS       = .obj/bodytype_createView.o \
 		.obj/partial_carouselView.o \
 		.obj/partial_carousel_bakView.o \
 		.obj/partial_errorView.o \
-		.obj/partial_filterView.o \
 		.obj/partial_flashView.o \
 		.obj/partial_flash1View.o \
 		.obj/partial_footerView.o \
@@ -210,6 +209,7 @@ OBJECTS       = .obj/bodytype_createView.o \
 		.obj/partial_partsView.o \
 		.obj/partial_sidebarView.o \
 		.obj/partial_vehicle_detailView.o \
+		.obj/partial_vehicle_filterView.o \
 		.obj/partial_vehiclesView.o \
 		.obj/publicvehicle_indexView.o \
 		.obj/user_formView.o \
@@ -374,7 +374,6 @@ DIST          = /usr/lib64/qt5/mkspecs/features/spec_pre.prf \
 		partial_carouselView.moc \
 		partial_carousel_bakView.moc \
 		partial_errorView.moc \
-		partial_filterView.moc \
 		partial_flashView.moc \
 		partial_flash1View.moc \
 		partial_footerView.moc \
@@ -405,6 +404,7 @@ DIST          = /usr/lib64/qt5/mkspecs/features/spec_pre.prf \
 		partial_partsView.moc \
 		partial_sidebarView.moc \
 		partial_vehicle_detailView.moc \
+		partial_vehicle_filterView.moc \
 		partial_vehiclesView.moc \
 		publicvehicle_indexView.moc \
 		user_formView.moc \
@@ -458,7 +458,6 @@ DIST          = /usr/lib64/qt5/mkspecs/features/spec_pre.prf \
 		partial_carouselView.cpp \
 		partial_carousel_bakView.cpp \
 		partial_errorView.cpp \
-		partial_filterView.cpp \
 		partial_flashView.cpp \
 		partial_flash1View.cpp \
 		partial_footerView.cpp \
@@ -489,6 +488,7 @@ DIST          = /usr/lib64/qt5/mkspecs/features/spec_pre.prf \
 		partial_partsView.cpp \
 		partial_sidebarView.cpp \
 		partial_vehicle_detailView.cpp \
+		partial_vehicle_filterView.cpp \
 		partial_vehiclesView.cpp \
 		publicvehicle_indexView.cpp \
 		user_formView.cpp \
@@ -776,8 +776,8 @@ distdir: FORCE
 	@test -d $(DISTDIR) || mkdir -p $(DISTDIR)
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
 	$(COPY_FILE) --parents /usr/lib64/qt5/mkspecs/features/data/dummy.cpp $(DISTDIR)/
-	$(COPY_FILE) --parents bodytype_createView.moc bodytype_indexView.moc bodytype_saveView.moc bodytype_showView.moc color_createView.moc color_indexView.moc color_saveView.moc color_showView.moc dashboard_indexView.moc drivetype_createView.moc drivetype_indexView.moc drivetype_saveView.moc drivetype_showView.moc fueltype_createView.moc fueltype_indexView.moc fueltype_saveView.moc fueltype_showView.moc grade_createView.moc grade_indexView.moc grade_saveView.moc grade_showView.moc home_indexView.moc layouts_applicationView.moc layouts_backendView.moc layouts_loginView.moc make_createView.moc make_indexView.moc make_saveView.moc make_showView.moc news_createView.moc news_indexView.moc news_saveView.moc news_showView.moc newsgallery_createView.moc newsgallery_indexView.moc newsgallery_saveView.moc newsgallery_showView.moc partial_brandView.moc partial_brand_adminView.moc partial_carouselView.moc partial_carousel_bakView.moc partial_errorView.moc partial_filterView.moc partial_flashView.moc partial_flash1View.moc partial_footerView.moc partial_headerView.moc partial_heroView.moc partial_itemView.moc partial_login_modalView.moc partial_make_filterView.moc partial_make_form_editView.moc partial_make_form_newView.moc partial_make_removeView.moc partial_make_resultView.moc partial_model_filterView.moc partial_model_form_editView.moc partial_model_form_newView.moc partial_model_removeView.moc partial_model_resultView.moc partial_navView.moc partial_nav_adminView.moc partial_offersView.moc partial_pagerView.moc partial_part_adminView.moc partial_part_admin_filterView.moc partial_part_admin_form_editView.moc partial_part_admin_form_newView.moc partial_part_admin_removeView.moc partial_part_admin_resultView.moc partial_partsView.moc partial_sidebarView.moc partial_vehicle_detailView.moc partial_vehiclesView.moc publicvehicle_indexView.moc user_formView.moc user_loginView.moc vehicle_createView.moc vehicle_indexView.moc vehicle_saveView.moc vehicle_showView.moc vehiclemodel_createView.moc vehiclemodel_indexView.moc vehiclemodel_saveView.moc vehiclemodel_showView.moc $(DISTDIR)/
-	$(COPY_FILE) --parents bodytype_createView.cpp bodytype_indexView.cpp bodytype_saveView.cpp bodytype_showView.cpp color_createView.cpp color_indexView.cpp color_saveView.cpp color_showView.cpp dashboard_indexView.cpp drivetype_createView.cpp drivetype_indexView.cpp drivetype_saveView.cpp drivetype_showView.cpp fueltype_createView.cpp fueltype_indexView.cpp fueltype_saveView.cpp fueltype_showView.cpp grade_createView.cpp grade_indexView.cpp grade_saveView.cpp grade_showView.cpp home_indexView.cpp layouts_applicationView.cpp layouts_backendView.cpp layouts_loginView.cpp make_createView.cpp make_indexView.cpp make_saveView.cpp make_showView.cpp news_createView.cpp news_indexView.cpp news_saveView.cpp news_showView.cpp newsgallery_createView.cpp newsgallery_indexView.cpp newsgallery_saveView.cpp newsgallery_showView.cpp partial_brandView.cpp partial_brand_adminView.cpp partial_carouselView.cpp partial_carousel_bakView.cpp partial_errorView.cpp partial_filterView.cpp partial_flashView.cpp partial_flash1View.cpp partial_footerView.cpp partial_headerView.cpp partial_heroView.cpp partial_itemView.cpp partial_login_modalView.cpp partial_make_filterView.cpp partial_make_form_editView.cpp partial_make_form_newView.cpp partial_make_removeView.cpp partial_make_resultView.cpp partial_model_filterView.cpp partial_model_form_editView.cpp partial_model_form_newView.cpp partial_model_removeView.cpp partial_model_resultView.cpp partial_navView.cpp partial_nav_adminView.cpp partial_offersView.cpp partial_pagerView.cpp partial_part_adminView.cpp partial_part_admin_filterView.cpp partial_part_admin_form_editView.cpp partial_part_admin_form_newView.cpp partial_part_admin_removeView.cpp partial_part_admin_resultView.cpp partial_partsView.cpp partial_sidebarView.cpp partial_vehicle_detailView.cpp partial_vehiclesView.cpp publicvehicle_indexView.cpp user_formView.cpp user_loginView.cpp vehicle_createView.cpp vehicle_indexView.cpp vehicle_saveView.cpp vehicle_showView.cpp vehiclemodel_createView.cpp vehiclemodel_indexView.cpp vehiclemodel_saveView.cpp vehiclemodel_showView.cpp $(DISTDIR)/
+	$(COPY_FILE) --parents bodytype_createView.moc bodytype_indexView.moc bodytype_saveView.moc bodytype_showView.moc color_createView.moc color_indexView.moc color_saveView.moc color_showView.moc dashboard_indexView.moc drivetype_createView.moc drivetype_indexView.moc drivetype_saveView.moc drivetype_showView.moc fueltype_createView.moc fueltype_indexView.moc fueltype_saveView.moc fueltype_showView.moc grade_createView.moc grade_indexView.moc grade_saveView.moc grade_showView.moc home_indexView.moc layouts_applicationView.moc layouts_backendView.moc layouts_loginView.moc make_createView.moc make_indexView.moc make_saveView.moc make_showView.moc news_createView.moc news_indexView.moc news_saveView.moc news_showView.moc newsgallery_createView.moc newsgallery_indexView.moc newsgallery_saveView.moc newsgallery_showView.moc partial_brandView.moc partial_brand_adminView.moc partial_carouselView.moc partial_carousel_bakView.moc partial_errorView.moc partial_flashView.moc partial_flash1View.moc partial_footerView.moc partial_headerView.moc partial_heroView.moc partial_itemView.moc partial_login_modalView.moc partial_make_filterView.moc partial_make_form_editView.moc partial_make_form_newView.moc partial_make_removeView.moc partial_make_resultView.moc partial_model_filterView.moc partial_model_form_editView.moc partial_model_form_newView.moc partial_model_removeView.moc partial_model_resultView.moc partial_navView.moc partial_nav_adminView.moc partial_offersView.moc partial_pagerView.moc partial_part_adminView.moc partial_part_admin_filterView.moc partial_part_admin_form_editView.moc partial_part_admin_form_newView.moc partial_part_admin_removeView.moc partial_part_admin_resultView.moc partial_partsView.moc partial_sidebarView.moc partial_vehicle_detailView.moc partial_vehicle_filterView.moc partial_vehiclesView.moc publicvehicle_indexView.moc user_formView.moc user_loginView.moc vehicle_createView.moc vehicle_indexView.moc vehicle_saveView.moc vehicle_showView.moc vehiclemodel_createView.moc vehiclemodel_indexView.moc vehiclemodel_saveView.moc vehiclemodel_showView.moc $(DISTDIR)/
+	$(COPY_FILE) --parents bodytype_createView.cpp bodytype_indexView.cpp bodytype_saveView.cpp bodytype_showView.cpp color_createView.cpp color_indexView.cpp color_saveView.cpp color_showView.cpp dashboard_indexView.cpp drivetype_createView.cpp drivetype_indexView.cpp drivetype_saveView.cpp drivetype_showView.cpp fueltype_createView.cpp fueltype_indexView.cpp fueltype_saveView.cpp fueltype_showView.cpp grade_createView.cpp grade_indexView.cpp grade_saveView.cpp grade_showView.cpp home_indexView.cpp layouts_applicationView.cpp layouts_backendView.cpp layouts_loginView.cpp make_createView.cpp make_indexView.cpp make_saveView.cpp make_showView.cpp news_createView.cpp news_indexView.cpp news_saveView.cpp news_showView.cpp newsgallery_createView.cpp newsgallery_indexView.cpp newsgallery_saveView.cpp newsgallery_showView.cpp partial_brandView.cpp partial_brand_adminView.cpp partial_carouselView.cpp partial_carousel_bakView.cpp partial_errorView.cpp partial_flashView.cpp partial_flash1View.cpp partial_footerView.cpp partial_headerView.cpp partial_heroView.cpp partial_itemView.cpp partial_login_modalView.cpp partial_make_filterView.cpp partial_make_form_editView.cpp partial_make_form_newView.cpp partial_make_removeView.cpp partial_make_resultView.cpp partial_model_filterView.cpp partial_model_form_editView.cpp partial_model_form_newView.cpp partial_model_removeView.cpp partial_model_resultView.cpp partial_navView.cpp partial_nav_adminView.cpp partial_offersView.cpp partial_pagerView.cpp partial_part_adminView.cpp partial_part_admin_filterView.cpp partial_part_admin_form_editView.cpp partial_part_admin_form_newView.cpp partial_part_admin_removeView.cpp partial_part_admin_resultView.cpp partial_partsView.cpp partial_sidebarView.cpp partial_vehicle_detailView.cpp partial_vehicle_filterView.cpp partial_vehiclesView.cpp publicvehicle_indexView.cpp user_formView.cpp user_loginView.cpp vehicle_createView.cpp vehicle_indexView.cpp vehicle_saveView.cpp vehicle_showView.cpp vehiclemodel_createView.cpp vehiclemodel_indexView.cpp vehiclemodel_saveView.cpp vehiclemodel_showView.cpp $(DISTDIR)/
 
 
 clean: compiler_clean 
@@ -817,10 +817,10 @@ compiler_moc_header_make_all:
 compiler_moc_header_clean:
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
-compiler_moc_source_make_all: .obj/bodytype_createView.moc .obj/bodytype_indexView.moc .obj/bodytype_saveView.moc .obj/bodytype_showView.moc .obj/color_createView.moc .obj/color_indexView.moc .obj/color_saveView.moc .obj/color_showView.moc .obj/dashboard_indexView.moc .obj/drivetype_createView.moc .obj/drivetype_indexView.moc .obj/drivetype_saveView.moc .obj/drivetype_showView.moc .obj/fueltype_createView.moc .obj/fueltype_indexView.moc .obj/fueltype_saveView.moc .obj/fueltype_showView.moc .obj/grade_createView.moc .obj/grade_indexView.moc .obj/grade_saveView.moc .obj/grade_showView.moc .obj/home_indexView.moc .obj/layouts_applicationView.moc .obj/layouts_backendView.moc .obj/layouts_loginView.moc .obj/make_createView.moc .obj/make_indexView.moc .obj/make_saveView.moc .obj/make_showView.moc .obj/news_createView.moc .obj/news_indexView.moc .obj/news_saveView.moc .obj/news_showView.moc .obj/newsgallery_createView.moc .obj/newsgallery_indexView.moc .obj/newsgallery_saveView.moc .obj/newsgallery_showView.moc .obj/partial_brandView.moc .obj/partial_brand_adminView.moc .obj/partial_carouselView.moc .obj/partial_carousel_bakView.moc .obj/partial_errorView.moc .obj/partial_filterView.moc .obj/partial_flashView.moc .obj/partial_flash1View.moc .obj/partial_footerView.moc .obj/partial_headerView.moc .obj/partial_heroView.moc .obj/partial_itemView.moc .obj/partial_login_modalView.moc .obj/partial_make_filterView.moc .obj/partial_make_form_editView.moc .obj/partial_make_form_newView.moc .obj/partial_make_removeView.moc .obj/partial_make_resultView.moc .obj/partial_model_filterView.moc .obj/partial_model_form_editView.moc .obj/partial_model_form_newView.moc .obj/partial_model_removeView.moc .obj/partial_model_resultView.moc .obj/partial_navView.moc .obj/partial_nav_adminView.moc .obj/partial_offersView.moc .obj/partial_pagerView.moc .obj/partial_part_adminView.moc .obj/partial_part_admin_filterView.moc .obj/partial_part_admin_form_editView.moc .obj/partial_part_admin_form_newView.moc .obj/partial_part_admin_removeView.moc .obj/partial_part_admin_resultView.moc .obj/partial_partsView.moc .obj/partial_sidebarView.moc .obj/partial_vehicle_detailView.moc .obj/partial_vehiclesView.moc .obj/publicvehicle_indexView.moc .obj/user_formView.moc .obj/user_loginView.moc .obj/vehicle_createView.moc .obj/vehicle_indexView.moc .obj/vehicle_saveView.moc .obj/vehicle_showView.moc .obj/vehiclemodel_createView.moc .obj/vehiclemodel_indexView.moc .obj/vehiclemodel_saveView.moc .obj/vehiclemodel_showView.moc
+compiler_moc_source_make_all: .obj/bodytype_createView.moc .obj/bodytype_indexView.moc .obj/bodytype_saveView.moc .obj/bodytype_showView.moc .obj/color_createView.moc .obj/color_indexView.moc .obj/color_saveView.moc .obj/color_showView.moc .obj/dashboard_indexView.moc .obj/drivetype_createView.moc .obj/drivetype_indexView.moc .obj/drivetype_saveView.moc .obj/drivetype_showView.moc .obj/fueltype_createView.moc .obj/fueltype_indexView.moc .obj/fueltype_saveView.moc .obj/fueltype_showView.moc .obj/grade_createView.moc .obj/grade_indexView.moc .obj/grade_saveView.moc .obj/grade_showView.moc .obj/home_indexView.moc .obj/layouts_applicationView.moc .obj/layouts_backendView.moc .obj/layouts_loginView.moc .obj/make_createView.moc .obj/make_indexView.moc .obj/make_saveView.moc .obj/make_showView.moc .obj/news_createView.moc .obj/news_indexView.moc .obj/news_saveView.moc .obj/news_showView.moc .obj/newsgallery_createView.moc .obj/newsgallery_indexView.moc .obj/newsgallery_saveView.moc .obj/newsgallery_showView.moc .obj/partial_brandView.moc .obj/partial_brand_adminView.moc .obj/partial_carouselView.moc .obj/partial_carousel_bakView.moc .obj/partial_errorView.moc .obj/partial_flashView.moc .obj/partial_flash1View.moc .obj/partial_footerView.moc .obj/partial_headerView.moc .obj/partial_heroView.moc .obj/partial_itemView.moc .obj/partial_login_modalView.moc .obj/partial_make_filterView.moc .obj/partial_make_form_editView.moc .obj/partial_make_form_newView.moc .obj/partial_make_removeView.moc .obj/partial_make_resultView.moc .obj/partial_model_filterView.moc .obj/partial_model_form_editView.moc .obj/partial_model_form_newView.moc .obj/partial_model_removeView.moc .obj/partial_model_resultView.moc .obj/partial_navView.moc .obj/partial_nav_adminView.moc .obj/partial_offersView.moc .obj/partial_pagerView.moc .obj/partial_part_adminView.moc .obj/partial_part_admin_filterView.moc .obj/partial_part_admin_form_editView.moc .obj/partial_part_admin_form_newView.moc .obj/partial_part_admin_removeView.moc .obj/partial_part_admin_resultView.moc .obj/partial_partsView.moc .obj/partial_sidebarView.moc .obj/partial_vehicle_detailView.moc .obj/partial_vehicle_filterView.moc .obj/partial_vehiclesView.moc .obj/publicvehicle_indexView.moc .obj/user_formView.moc .obj/user_loginView.moc .obj/vehicle_createView.moc .obj/vehicle_indexView.moc .obj/vehicle_saveView.moc .obj/vehicle_showView.moc .obj/vehiclemodel_createView.moc .obj/vehiclemodel_indexView.moc .obj/vehiclemodel_saveView.moc .obj/vehiclemodel_showView.moc
 compiler_moc_source_clean:
-	-$(DEL_FILE) .obj/bodytype_createView.moc .obj/bodytype_indexView.moc .obj/bodytype_saveView.moc .obj/bodytype_showView.moc .obj/color_createView.moc .obj/color_indexView.moc .obj/color_saveView.moc .obj/color_showView.moc .obj/dashboard_indexView.moc .obj/drivetype_createView.moc .obj/drivetype_indexView.moc .obj/drivetype_saveView.moc .obj/drivetype_showView.moc .obj/fueltype_createView.moc .obj/fueltype_indexView.moc .obj/fueltype_saveView.moc .obj/fueltype_showView.moc .obj/grade_createView.moc .obj/grade_indexView.moc .obj/grade_saveView.moc .obj/grade_showView.moc .obj/home_indexView.moc .obj/layouts_applicationView.moc .obj/layouts_backendView.moc .obj/layouts_loginView.moc .obj/make_createView.moc .obj/make_indexView.moc .obj/make_saveView.moc .obj/make_showView.moc .obj/news_createView.moc .obj/news_indexView.moc .obj/news_saveView.moc .obj/news_showView.moc .obj/newsgallery_createView.moc .obj/newsgallery_indexView.moc .obj/newsgallery_saveView.moc .obj/newsgallery_showView.moc .obj/partial_brandView.moc .obj/partial_brand_adminView.moc .obj/partial_carouselView.moc .obj/partial_carousel_bakView.moc .obj/partial_errorView.moc .obj/partial_filterView.moc .obj/partial_flashView.moc .obj/partial_flash1View.moc .obj/partial_footerView.moc .obj/partial_headerView.moc .obj/partial_heroView.moc .obj/partial_itemView.moc .obj/partial_login_modalView.moc .obj/partial_make_filterView.moc .obj/partial_make_form_editView.moc .obj/partial_make_form_newView.moc .obj/partial_make_removeView.moc .obj/partial_make_resultView.moc .obj/partial_model_filterView.moc .obj/partial_model_form_editView.moc .obj/partial_model_form_newView.moc .obj/partial_model_removeView.moc .obj/partial_model_resultView.moc .obj/partial_navView.moc .obj/partial_nav_adminView.moc .obj/partial_offersView.moc .obj/partial_pagerView.moc .obj/partial_part_adminView.moc .obj/partial_part_admin_filterView.moc .obj/partial_part_admin_form_editView.moc .obj/partial_part_admin_form_newView.moc .obj/partial_part_admin_removeView.moc
-	-$(DEL_FILE) .obj/partial_part_admin_resultView.moc .obj/partial_partsView.moc .obj/partial_sidebarView.moc .obj/partial_vehicle_detailView.moc .obj/partial_vehiclesView.moc .obj/publicvehicle_indexView.moc .obj/user_formView.moc .obj/user_loginView.moc .obj/vehicle_createView.moc .obj/vehicle_indexView.moc .obj/vehicle_saveView.moc .obj/vehicle_showView.moc .obj/vehiclemodel_createView.moc .obj/vehiclemodel_indexView.moc .obj/vehiclemodel_saveView.moc .obj/vehiclemodel_showView.moc
+	-$(DEL_FILE) .obj/bodytype_createView.moc .obj/bodytype_indexView.moc .obj/bodytype_saveView.moc .obj/bodytype_showView.moc .obj/color_createView.moc .obj/color_indexView.moc .obj/color_saveView.moc .obj/color_showView.moc .obj/dashboard_indexView.moc .obj/drivetype_createView.moc .obj/drivetype_indexView.moc .obj/drivetype_saveView.moc .obj/drivetype_showView.moc .obj/fueltype_createView.moc .obj/fueltype_indexView.moc .obj/fueltype_saveView.moc .obj/fueltype_showView.moc .obj/grade_createView.moc .obj/grade_indexView.moc .obj/grade_saveView.moc .obj/grade_showView.moc .obj/home_indexView.moc .obj/layouts_applicationView.moc .obj/layouts_backendView.moc .obj/layouts_loginView.moc .obj/make_createView.moc .obj/make_indexView.moc .obj/make_saveView.moc .obj/make_showView.moc .obj/news_createView.moc .obj/news_indexView.moc .obj/news_saveView.moc .obj/news_showView.moc .obj/newsgallery_createView.moc .obj/newsgallery_indexView.moc .obj/newsgallery_saveView.moc .obj/newsgallery_showView.moc .obj/partial_brandView.moc .obj/partial_brand_adminView.moc .obj/partial_carouselView.moc .obj/partial_carousel_bakView.moc .obj/partial_errorView.moc .obj/partial_flashView.moc .obj/partial_flash1View.moc .obj/partial_footerView.moc .obj/partial_headerView.moc .obj/partial_heroView.moc .obj/partial_itemView.moc .obj/partial_login_modalView.moc .obj/partial_make_filterView.moc .obj/partial_make_form_editView.moc .obj/partial_make_form_newView.moc .obj/partial_make_removeView.moc .obj/partial_make_resultView.moc .obj/partial_model_filterView.moc .obj/partial_model_form_editView.moc .obj/partial_model_form_newView.moc .obj/partial_model_removeView.moc .obj/partial_model_resultView.moc .obj/partial_navView.moc .obj/partial_nav_adminView.moc .obj/partial_offersView.moc .obj/partial_pagerView.moc .obj/partial_part_adminView.moc .obj/partial_part_admin_filterView.moc .obj/partial_part_admin_form_editView.moc .obj/partial_part_admin_form_newView.moc .obj/partial_part_admin_removeView.moc .obj/partial_part_admin_resultView.moc
+	-$(DEL_FILE) .obj/partial_partsView.moc .obj/partial_sidebarView.moc .obj/partial_vehicle_detailView.moc .obj/partial_vehicle_filterView.moc .obj/partial_vehiclesView.moc .obj/publicvehicle_indexView.moc .obj/user_formView.moc .obj/user_loginView.moc .obj/vehicle_createView.moc .obj/vehicle_indexView.moc .obj/vehicle_saveView.moc .obj/vehicle_showView.moc .obj/vehiclemodel_createView.moc .obj/vehiclemodel_indexView.moc .obj/vehiclemodel_saveView.moc .obj/vehiclemodel_showView.moc
 .obj/bodytype_createView.moc: bodytype_createView.cpp \
 		../../models/bodytype.h \
 		../../helpers/applicationhelper.h \
@@ -1485,21 +1485,6 @@ compiler_moc_source_clean:
 		/usr/bin/moc
 	/usr/bin/moc $(DEFINES) --include /home/ahlev/Projects/cplusplus/topautocam/views/_src/.obj/moc_predefs.h -I/usr/lib64/qt5/mkspecs/linux-g++ -I/home/ahlev/Projects/cplusplus/topautocam/views/_src -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/usr/include/treefrog -I/usr/include/QtQml -I/usr/include/QtNetwork -I/usr/include/QtXml -I/usr/include/QtCore -I/usr/include/c++/10 -I/usr/include/c++/10/x86_64-generic-linux -I/usr/include/c++/10/backward -I/usr/lib64/gcc/x86_64-generic-linux/10/include -I/usr/local/include -I/usr/lib64/gcc/x86_64-generic-linux/10/include-fixed -I/usr/include partial_errorView.cpp -o .obj/partial_errorView.moc
 
-.obj/partial_filterView.moc: partial_filterView.cpp \
-		../../helpers/applicationhelper.h \
-		../../helpers/bodytypevalidator.h \
-		../../helpers/colorvalidator.h \
-		../../helpers/drivetypevalidator.h \
-		../../helpers/fueltypevalidator.h \
-		../../helpers/gradevalidator.h \
-		../../helpers/makevalidator.h \
-		../../helpers/newsvalidator.h \
-		../../helpers/vehiclemodelvalidator.h \
-		../../helpers/vehiclevalidator.h \
-		.obj/moc_predefs.h \
-		/usr/bin/moc
-	/usr/bin/moc $(DEFINES) --include /home/ahlev/Projects/cplusplus/topautocam/views/_src/.obj/moc_predefs.h -I/usr/lib64/qt5/mkspecs/linux-g++ -I/home/ahlev/Projects/cplusplus/topautocam/views/_src -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/usr/include/treefrog -I/usr/include/QtQml -I/usr/include/QtNetwork -I/usr/include/QtXml -I/usr/include/QtCore -I/usr/include/c++/10 -I/usr/include/c++/10/x86_64-generic-linux -I/usr/include/c++/10/backward -I/usr/lib64/gcc/x86_64-generic-linux/10/include -I/usr/local/include -I/usr/lib64/gcc/x86_64-generic-linux/10/include-fixed -I/usr/include partial_filterView.cpp -o .obj/partial_filterView.moc
-
 .obj/partial_flashView.moc: partial_flashView.cpp \
 		../../helpers/applicationhelper.h \
 		../../helpers/bodytypevalidator.h \
@@ -1949,6 +1934,21 @@ compiler_moc_source_clean:
 		.obj/moc_predefs.h \
 		/usr/bin/moc
 	/usr/bin/moc $(DEFINES) --include /home/ahlev/Projects/cplusplus/topautocam/views/_src/.obj/moc_predefs.h -I/usr/lib64/qt5/mkspecs/linux-g++ -I/home/ahlev/Projects/cplusplus/topautocam/views/_src -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/usr/include/treefrog -I/usr/include/QtQml -I/usr/include/QtNetwork -I/usr/include/QtXml -I/usr/include/QtCore -I/usr/include/c++/10 -I/usr/include/c++/10/x86_64-generic-linux -I/usr/include/c++/10/backward -I/usr/lib64/gcc/x86_64-generic-linux/10/include -I/usr/local/include -I/usr/lib64/gcc/x86_64-generic-linux/10/include-fixed -I/usr/include partial_vehicle_detailView.cpp -o .obj/partial_vehicle_detailView.moc
+
+.obj/partial_vehicle_filterView.moc: partial_vehicle_filterView.cpp \
+		../../helpers/applicationhelper.h \
+		../../helpers/bodytypevalidator.h \
+		../../helpers/colorvalidator.h \
+		../../helpers/drivetypevalidator.h \
+		../../helpers/fueltypevalidator.h \
+		../../helpers/gradevalidator.h \
+		../../helpers/makevalidator.h \
+		../../helpers/newsvalidator.h \
+		../../helpers/vehiclemodelvalidator.h \
+		../../helpers/vehiclevalidator.h \
+		.obj/moc_predefs.h \
+		/usr/bin/moc
+	/usr/bin/moc $(DEFINES) --include /home/ahlev/Projects/cplusplus/topautocam/views/_src/.obj/moc_predefs.h -I/usr/lib64/qt5/mkspecs/linux-g++ -I/home/ahlev/Projects/cplusplus/topautocam/views/_src -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/usr/include/treefrog -I/usr/include/QtQml -I/usr/include/QtNetwork -I/usr/include/QtXml -I/usr/include/QtCore -I/usr/include/c++/10 -I/usr/include/c++/10/x86_64-generic-linux -I/usr/include/c++/10/backward -I/usr/lib64/gcc/x86_64-generic-linux/10/include -I/usr/local/include -I/usr/lib64/gcc/x86_64-generic-linux/10/include-fixed -I/usr/include partial_vehicle_filterView.cpp -o .obj/partial_vehicle_filterView.moc
 
 .obj/partial_vehiclesView.moc: partial_vehiclesView.cpp \
 		../../helpers/applicationhelper.h \
@@ -2747,19 +2747,6 @@ compiler_clean: compiler_moc_predefs_clean compiler_moc_source_clean
 		.obj/partial_errorView.moc
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o .obj/partial_errorView.o partial_errorView.cpp
 
-.obj/partial_filterView.o: partial_filterView.cpp ../../helpers/applicationhelper.h \
-		../../helpers/bodytypevalidator.h \
-		../../helpers/colorvalidator.h \
-		../../helpers/drivetypevalidator.h \
-		../../helpers/fueltypevalidator.h \
-		../../helpers/gradevalidator.h \
-		../../helpers/makevalidator.h \
-		../../helpers/newsvalidator.h \
-		../../helpers/vehiclemodelvalidator.h \
-		../../helpers/vehiclevalidator.h \
-		.obj/partial_filterView.moc
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o .obj/partial_filterView.o partial_filterView.cpp
-
 .obj/partial_flashView.o: partial_flashView.cpp ../../helpers/applicationhelper.h \
 		../../helpers/bodytypevalidator.h \
 		../../helpers/colorvalidator.h \
@@ -3150,6 +3137,19 @@ compiler_clean: compiler_moc_predefs_clean compiler_moc_source_clean
 		.obj/partial_vehicle_detailView.moc
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o .obj/partial_vehicle_detailView.o partial_vehicle_detailView.cpp
 
+.obj/partial_vehicle_filterView.o: partial_vehicle_filterView.cpp ../../helpers/applicationhelper.h \
+		../../helpers/bodytypevalidator.h \
+		../../helpers/colorvalidator.h \
+		../../helpers/drivetypevalidator.h \
+		../../helpers/fueltypevalidator.h \
+		../../helpers/gradevalidator.h \
+		../../helpers/makevalidator.h \
+		../../helpers/newsvalidator.h \
+		../../helpers/vehiclemodelvalidator.h \
+		../../helpers/vehiclevalidator.h \
+		.obj/partial_vehicle_filterView.moc
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o .obj/partial_vehicle_filterView.o partial_vehicle_filterView.cpp
+
 .obj/partial_vehiclesView.o: partial_vehiclesView.cpp ../../helpers/applicationhelper.h \
 		../../helpers/bodytypevalidator.h \
 		../../helpers/colorvalidator.h \
@@ -3379,7 +3379,6 @@ install_views: first FORCE
 	$(QINSTALL) /home/ahlev/Projects/cplusplus/topautocam/views/partial/carousel.erb $(INSTALL_ROOT)/home/ahlev/Projects/cplusplus/topautocam/views/_src/.dummy/carousel.erb
 	$(QINSTALL) /home/ahlev/Projects/cplusplus/topautocam/views/partial/carousel_bak.erb $(INSTALL_ROOT)/home/ahlev/Projects/cplusplus/topautocam/views/_src/.dummy/carousel_bak.erb
 	$(QINSTALL) /home/ahlev/Projects/cplusplus/topautocam/views/partial/error.erb $(INSTALL_ROOT)/home/ahlev/Projects/cplusplus/topautocam/views/_src/.dummy/error.erb
-	$(QINSTALL) /home/ahlev/Projects/cplusplus/topautocam/views/partial/filter.erb $(INSTALL_ROOT)/home/ahlev/Projects/cplusplus/topautocam/views/_src/.dummy/filter.erb
 	$(QINSTALL) /home/ahlev/Projects/cplusplus/topautocam/views/partial/flash.erb $(INSTALL_ROOT)/home/ahlev/Projects/cplusplus/topautocam/views/_src/.dummy/flash.erb
 	$(QINSTALL) /home/ahlev/Projects/cplusplus/topautocam/views/partial/flash1.erb $(INSTALL_ROOT)/home/ahlev/Projects/cplusplus/topautocam/views/_src/.dummy/flash1.erb
 	$(QINSTALL) /home/ahlev/Projects/cplusplus/topautocam/views/partial/footer.erb $(INSTALL_ROOT)/home/ahlev/Projects/cplusplus/topautocam/views/_src/.dummy/footer.erb
@@ -3410,6 +3409,7 @@ install_views: first FORCE
 	$(QINSTALL) /home/ahlev/Projects/cplusplus/topautocam/views/partial/parts.erb $(INSTALL_ROOT)/home/ahlev/Projects/cplusplus/topautocam/views/_src/.dummy/parts.erb
 	$(QINSTALL) /home/ahlev/Projects/cplusplus/topautocam/views/partial/sidebar.erb $(INSTALL_ROOT)/home/ahlev/Projects/cplusplus/topautocam/views/_src/.dummy/sidebar.erb
 	$(QINSTALL) /home/ahlev/Projects/cplusplus/topautocam/views/partial/vehicle_detail.erb $(INSTALL_ROOT)/home/ahlev/Projects/cplusplus/topautocam/views/_src/.dummy/vehicle_detail.erb
+	$(QINSTALL) /home/ahlev/Projects/cplusplus/topautocam/views/partial/vehicle_filter.erb $(INSTALL_ROOT)/home/ahlev/Projects/cplusplus/topautocam/views/_src/.dummy/vehicle_filter.erb
 	$(QINSTALL) /home/ahlev/Projects/cplusplus/topautocam/views/partial/vehicles.erb $(INSTALL_ROOT)/home/ahlev/Projects/cplusplus/topautocam/views/_src/.dummy/vehicles.erb
 	$(QINSTALL) /home/ahlev/Projects/cplusplus/topautocam/views/publicvehicle/index.erb $(INSTALL_ROOT)/home/ahlev/Projects/cplusplus/topautocam/views/_src/.dummy/index.erb
 	$(QINSTALL) /home/ahlev/Projects/cplusplus/topautocam/views/user/form.erb $(INSTALL_ROOT)/home/ahlev/Projects/cplusplus/topautocam/views/_src/.dummy/form.erb
@@ -3436,6 +3436,7 @@ uninstall_views: FORCE
 	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/ahlev/Projects/cplusplus/topautocam/views/_src/.dummy/form.erb
 	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/ahlev/Projects/cplusplus/topautocam/views/_src/.dummy/index.erb
 	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/ahlev/Projects/cplusplus/topautocam/views/_src/.dummy/vehicles.erb
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/ahlev/Projects/cplusplus/topautocam/views/_src/.dummy/vehicle_filter.erb
 	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/ahlev/Projects/cplusplus/topautocam/views/_src/.dummy/vehicle_detail.erb
 	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/ahlev/Projects/cplusplus/topautocam/views/_src/.dummy/sidebar.erb
 	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/ahlev/Projects/cplusplus/topautocam/views/_src/.dummy/parts.erb
@@ -3466,7 +3467,6 @@ uninstall_views: FORCE
 	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/ahlev/Projects/cplusplus/topautocam/views/_src/.dummy/footer.erb
 	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/ahlev/Projects/cplusplus/topautocam/views/_src/.dummy/flash1.erb
 	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/ahlev/Projects/cplusplus/topautocam/views/_src/.dummy/flash.erb
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/ahlev/Projects/cplusplus/topautocam/views/_src/.dummy/filter.erb
 	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/ahlev/Projects/cplusplus/topautocam/views/_src/.dummy/error.erb
 	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/ahlev/Projects/cplusplus/topautocam/views/_src/.dummy/carousel_bak.erb
 	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/ahlev/Projects/cplusplus/topautocam/views/_src/.dummy/carousel.erb

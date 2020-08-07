@@ -21,8 +21,8 @@ public:
 
 QString partial_brand_adminView::toString()
 {
-  responsebody.reserve(327);
-  responsebody += QStringLiteral("<a class=\"navbar-brand\" href=\"/dashboard\">\n  <!-- <img src=\"/assets/img/demo/logo-navbar.png\" alt=\"\"> -->\n  <span class=\"ms-logo ms-logo-sm\">T</span>\n  <span class=\"ms-title\">TOP <strong>AUTO</strong></span>\n  <span class=\"badge-pill badge-pill-pink\">admin</span>\n</a>\n");
+  responsebody.reserve(318);
+  responsebody += QStringLiteral("<a class=\"navbar-brand\" href=\"/\">\n  <!-- <img src=\"/assets/img/demo/logo-navbar.png\" alt=\"\"> -->\n  <span class=\"ms-logo ms-logo-sm\">T</span>\n  <span class=\"ms-title\">TOP <strong>AUTO</strong></span>\n  <span class=\"badge-pill badge-pill-pink\">admin</span>\n</a>\n");
 
   return responsebody;
 }
