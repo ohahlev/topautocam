@@ -1,13 +1,13 @@
 #ifndef NEWSCONTROLLER_H
 #define NEWSCONTROLLER_H
 
-#include "applicationcontroller.h"
+#include "backendcontroller.h"
 
-class T_CONTROLLER_EXPORT NewsController : public ApplicationController
+class T_CONTROLLER_EXPORT NewsController : public BackendController
 {
     Q_OBJECT
 public:
-    NewsController() : ApplicationController() {}
+    NewsController() : BackendController() {}
 
 public slots:
     void index();

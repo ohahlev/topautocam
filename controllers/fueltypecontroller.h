@@ -1,13 +1,13 @@
 #ifndef FUELTYPECONTROLLER_H
 #define FUELTYPECONTROLLER_H
 
-#include "applicationcontroller.h"
+#include "backendcontroller.h"
 
-class T_CONTROLLER_EXPORT FuelTypeController : public ApplicationController
+class T_CONTROLLER_EXPORT FuelTypeController : public BackendController
 {
     Q_OBJECT
 public:
-    FuelTypeController() : ApplicationController() {}
+    FuelTypeController() : BackendController() {}
 
 public slots:
     void index();

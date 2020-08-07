@@ -132,11 +132,14 @@ void VehicleModelController::postRemove(const QString &id)
 
     auto vehicleModel = VehicleModel::get(id.toInt());
     bool removed = vehicleModel.remove();
-    
+
     QString notice;
-    if(removed == true) { 
+    if (removed == true)
+    {
         notice = "Removed successfully.";
-    } else {
+    }
+    else
+    {
         notice = "Failed to remove.";
     }
     tflash(notice);

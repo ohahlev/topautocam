@@ -1,12 +1,11 @@
 #include "usercontroller.h"
 #include "user.h"
 
-
 void UserController::form()
 {
     // write code
-    userLogout();  // forcibly logged out
-    render("form", "login");
+    userLogout(); // forcibly logged out
+    render("login", "login");
 }
 
 void UserController::login()
@@ -16,13 +15,16 @@ void UserController::login()
     QString password = httpRequest().formItemValue("password");
 
     User user = User::authenticate(username, password);
-    if (!user.isNull()) {
+    if (!user.isNull())
+    {
         userLogin(&user);
-        redirect(url("/admin/dashboard", "index"));
-    } else {
-        QString message = "Login failed";
-        texport(message);
-        render("form");
+        redirect(url("admin/dashboard", "index"));
+    }
+    else
+    {
+        QString error = "Login failed";
+        texport(error);
+        render("login", "login");
     }
 }
 
@@ -30,7 +32,7 @@ void UserController::logout()
 {
     // write code
     userLogout();
-    redirect(url("/admin/user", "form"));
+    redirect(url("admin/user", "login"));
 }
 
 // Don't remove below this line

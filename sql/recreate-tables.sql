@@ -20,13 +20,19 @@ DROP TABLE IF EXISTS grade;
 DROP TABLE IF EXISTS drive_type;
 DROP TABLE IF EXISTS body_type;
 DROP TABLE IF EXISTS fuel_type;
+
+DROP TABLE IF EXISTS session;
 DROP TABLE IF EXISTS user;
 
-CREATE TABLE user ( username VARCHAR(128) PRIMARY KEY, password VARCHAR(128) );
-INSERT INTO user (username, password) VALUES
-    ('admin1', 'admin1'),
-    ('admin2', PASSWORD('admin2'));
+CREATE TABLE user ( 
+    username VARCHAR(128) PRIMARY KEY, 
+    password VARCHAR(128),
+    email VARCHAR(128) UNIQUE
+) DEFAULT  CHARSET=utf8;
 
+INSERT INTO user (username, password, email) VALUES
+    ('admin1', 'admin1', 'admin1@gmail.com'),
+    ('admin2', PASSWORD('admin2'), 'admin2@gmail.com');
 
 CREATE TABLE blog (
     id INTEGER AUTO_INCREMENT PRIMARY KEY,
@@ -262,4 +268,11 @@ CREATE TABLE part_offer (
     updated_at TIMESTAMP NOT NULL DEFAULT NOW() ON UPDATE NOW(),
     part_id INTEGER NOT NULL,
     FOREIGN KEY (part_id) REFERENCES part(id) ON DELETE CASCADE
+) DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE session (
+    id VARCHAR(50) PRIMARY KEY, 
+    data BLOB, 
+    updated_at TIMESTAMP
 ) DEFAULT CHARSET=utf8;

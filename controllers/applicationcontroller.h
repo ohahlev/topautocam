@@ -4,7 +4,6 @@
 #include <TActionController>
 #include "applicationhelper.h"
 
-
 class T_CONTROLLER_EXPORT ApplicationController : public TActionController
 {
     Q_OBJECT

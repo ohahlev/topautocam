@@ -1,13 +1,13 @@
 #ifndef DRIVETYPECONTROLLER_H
 #define DRIVETYPECONTROLLER_H
 
-#include "applicationcontroller.h"
+#include "backendcontroller.h"
 
-class T_CONTROLLER_EXPORT DriveTypeController : public ApplicationController
+class T_CONTROLLER_EXPORT DriveTypeController : public BackendController
 {
     Q_OBJECT
 public:
-    DriveTypeController() : ApplicationController() {}
+    DriveTypeController() : BackendController() {}
 
 public slots:
     void index();

@@ -1,13 +1,13 @@
 #ifndef GRADECONTROLLER_H
 #define GRADECONTROLLER_H
 
-#include "applicationcontroller.h"
+#include "backendcontroller.h"
 
-class T_CONTROLLER_EXPORT GradeController : public ApplicationController
+class T_CONTROLLER_EXPORT GradeController : public BackendController
 {
     Q_OBJECT
 public:
-    GradeController() : ApplicationController() {}
+    GradeController() : BackendController() {}
 
 public slots:
     void index();

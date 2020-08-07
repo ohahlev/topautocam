@@ -1,15 +1,15 @@
 #ifndef VEHICLECONTROLLER_H
 #define VEHICLECONTROLLER_H
 
-#include "applicationcontroller.h"
+#include "backendcontroller.h"
 
-#include "vehiclegallery.h"
+//#include "vehiclegallery.h"
 
-class T_CONTROLLER_EXPORT VehicleController : public ApplicationController
+class T_CONTROLLER_EXPORT VehicleController : public BackendController
 {
     Q_OBJECT
 public:
-    VehicleController() : ApplicationController() {}
+    VehicleController() : BackendController() {}
 
 public slots:
     void index();

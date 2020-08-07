@@ -1,18 +1,16 @@
 #ifndef DASHBOARDCONTROLLER_H
 #define DASHBOARDCONTROLLER_H
 
-#include "applicationcontroller.h"
+#include "backendcontroller.h"
 
-
-class T_CONTROLLER_EXPORT DashboardController : public ApplicationController
+class T_CONTROLLER_EXPORT DashboardController : public BackendController
 {
     Q_OBJECT
 public:
-    DashboardController() : ApplicationController() { }
+    DashboardController() : BackendController() {}
 
 public slots:
     void index();
-    bool preFilter();
 };
 
 #endif // DASHBOARDCONTROLLER_H

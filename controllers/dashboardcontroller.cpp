@@ -1,15 +1,6 @@
 #include "dashboardcontroller.h"
 #include "user.h"
 
-bool DashboardController::preFilter()
-{
-    if (!isUserLoggedIn()) {
-        redirect(url("admin/user", "login"));
-        return false;
-    }
-    return true;
-}
-
 void DashboardController::index()
 {
     render("index", "backend");

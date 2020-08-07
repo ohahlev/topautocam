@@ -1,13 +1,13 @@
 #ifndef MAKECONTROLLER_H
 #define MAKECONTROLLER_H
 
-#include "applicationcontroller.h"
+#include "backendcontroller.h"
 
-class T_CONTROLLER_EXPORT MakeController : public ApplicationController
+class T_CONTROLLER_EXPORT MakeController : public BackendController
 {
     Q_OBJECT
 public:
-    MakeController() : ApplicationController() {}
+    MakeController() : BackendController() {}
 
 public slots:
     void index();

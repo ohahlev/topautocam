@@ -1,13 +1,13 @@
 #ifndef BODYTYPECONTROLLER_H
 #define BODYTYPECONTROLLER_H
 
-#include "applicationcontroller.h"
+#include "backendcontroller.h"
 
-class T_CONTROLLER_EXPORT BodyTypeController : public ApplicationController
+class T_CONTROLLER_EXPORT BodyTypeController : public BackendController
 {
     Q_OBJECT
 public:
-    BodyTypeController() : ApplicationController() {}
+    BodyTypeController() : BackendController() {}
 
 public slots:
     void index();
