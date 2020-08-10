@@ -82,6 +82,9 @@ public:
      */
     Make getMake() const;
     VehicleModel getModel() const;
+    static QList<Vehicle> search(const int makeId, const int modelId, const int bodyId,
+                                 const int driveId, const int colorId, const int gradeId,
+                                 const int fuelId);
 
 private:
     QSharedDataPointer<VehicleObject> d;

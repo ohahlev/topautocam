@@ -3,6 +3,11 @@
 #include "sqlobjects/vehicleobject.h"
 #include "sqlobjects/makeobject.h"
 #include "sqlobjects/vehiclemodelobject.h"
+#include "sqlobjects/bodytypeobject.h"
+#include "sqlobjects/drivetypeobject.h"
+#include "sqlobjects/fueltypeobject.h"
+#include "sqlobjects/colorobject.h"
+#include "sqlobjects/gradeobject.h"
 
 Vehicle::Vehicle() : TAbstractModel(),
                      d(new VehicleObject())
@@ -286,6 +291,22 @@ int Vehicle::count()
 QList<Vehicle> Vehicle::getAll()
 {
     return tfGetModelListByCriteria<Vehicle, VehicleObject>(TCriteria());
+}
+
+//makeId=:param&modelId=:param&bodyId=:param&driveId=:param&colorId=:param&gradeId=:param&fuelId=:param
+QList<Vehicle> Vehicle::search(const int makeId, const int modelId, const int bodyId,
+                               const int driveId, const int colorId, const int gradeId,
+                               const int fuelId)
+{
+    TCriteria crt(MakeObject::Id, makeId);
+    crt.add(VehicleModelObject::Id, modelId);
+    crt.add(BodyTypeObject::Id, bodyId);
+    crt.add(DriveTypeObject::Id, driveId);
+    crt.add(ColorObject::Id, colorId);
+    crt.add(GradeObject::Id, gradeId);
+    crt.add(FuelTypeObject::Id, fuelId);
+
+    return tfGetModelListByCriteria<Vehicle, VehicleObject>(crt);
 }
 
 QJsonArray Vehicle::getAllJson()

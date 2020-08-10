@@ -21,10 +21,8 @@ public:
 
 QString publicvehicle_indexView::toString()
 {
-  responsebody.reserve(447);
+  responsebody.reserve(261);
   responsebody += QStringLiteral("<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-lg-12\">\n      ");
-  responsebody += QVariant(renderPartial("filter")).toString();
-  responsebody += QStringLiteral("\n    </div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-lg-12\">\n      ");
   responsebody += QVariant(renderPartial("vehicles")).toString();
   responsebody += QStringLiteral("\n    </div>\n  </div>\n</div>\n");
 
