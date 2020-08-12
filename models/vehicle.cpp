@@ -1,5 +1,6 @@
 #include <TreeFrogModel>
 #include "vehicle.h"
+#include "vehiclegallery.h"
 #include "sqlobjects/vehicleobject.h"
 #include "sqlobjects/makeobject.h"
 #include "sqlobjects/vehiclemodelobject.h"
@@ -8,6 +9,8 @@
 #include "sqlobjects/fueltypeobject.h"
 #include "sqlobjects/colorobject.h"
 #include "sqlobjects/gradeobject.h"
+#include "sqlobjects/vehiclegalleryobject.h"
+
 
 Vehicle::Vehicle() : TAbstractModel(),
                      d(new VehicleObject())
@@ -299,44 +302,44 @@ QList<Vehicle> Vehicle::search(const int make, const int model, const int body,
                                const int drive) 
 {
 
-    tInfo("make = %d, model = %d, body = %d, color = %d, grade = %d, fuel = %d, drive = %d",
+    tInfo("search vehicles by: make = %d, model = %d, body = %d, color = %d, grade = %d, fuel = %d, drive = %d",
     make, model, body, color, grade, fuel, drive);
 
     TCriteria crt = TCriteria();
 
     if(make != 0) {
-        crt.add(MakeObject::Id, make);
+        crt.add(VehicleObject::MakeId, make);
     }
 
     if(model != 0) {   
-        crt.add(VehicleModelObject::Id, model);
+        crt.add(VehicleObject::ModelId, model);
     }
 
     if(body != 0) {
-        crt.add(BodyTypeObject::Id, body);
+        crt.add(VehicleObject::BodyId, body);
     }
     
     if(color != 0) {
-        crt.add(ColorObject::Id, color);
+        crt.add(VehicleObject::ColorId, color);
     }
 
     if(grade != 0) {
-        crt.add(GradeObject::Id, grade);    
+        crt.add(VehicleObject::GradeId, grade);    
     }
 
     if(fuel != 0) {
-        crt.add(FuelTypeObject::Id, fuel);
+        crt.add(VehicleObject::FuelId, fuel);
     }
 
     if(drive != 0) {
-        crt.add(DriveTypeObject::Id, drive);
+        crt.add(VehicleObject::DriveId, drive);
     }
 
-    QList<Vehicle> results = tfGetModelListByCriteria<Vehicle, VehicleObject>(crt, 10, 0);
+    QList<Vehicle> list = tfGetModelListByCriteria<Vehicle, VehicleObject>(crt);
 
-    tInfo("vehicle results = %d", results.size());
+    tInfo("size of vehicles = %d", list.size());
 
-    return results;
+    return list;
 }
 
 QJsonArray Vehicle::getAllJson()
@@ -389,6 +392,15 @@ VehicleModel Vehicle::getModel() const
 {
     TSqlORMapper<VehicleModelObject> mapper;
     return VehicleModel(mapper.findByPrimaryKey(d->model_id));
+}
+
+QString Vehicle::getFirstPhoto() const 
+{
+    QList<VehicleGallery> list = VehicleGallery::getAllByVehicle(d->id);
+
+    if(list.size() == 0) return "";
+    
+    return list.at(0).photo();
 }
 
 // Don't remove below this line

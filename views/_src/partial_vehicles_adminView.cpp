@@ -22,7 +22,7 @@ public:
 
 QString partial_vehicles_adminView::toString()
 {
-  responsebody.reserve(5465);
+  responsebody.reserve(5939);
     tfetch(QList<Vehicle>, vehicleList);
   responsebody += QStringLiteral("<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-lg-12\">\n      ");
   responsebody += QVariant(renderPartial("vehicle_filter")).toString();
@@ -32,13 +32,21 @@ QString partial_vehicles_adminView::toString()
   for (const auto &i : vehicleList) {
   responsebody += QStringLiteral("              <div class=\"col-lg-4 col-md-6 mix laptop apple\" data-price=\"1999.99\" data-date=\"20160901\">\n                <div class=\"card wow zoomInUp\" style=\"visibility: visible; animation-name: zoomInUp;\">\n                  <div class=\"card-body overflow-hidden text-center\">\n                    <a href=\"/admin/vehicle/save/");
   responsebody += THttpUtility::htmlEscape(i.id());
-  responsebody += QStringLiteral("\">\n                      <img src=\"/media/model/alphard.jpg\" alt=\"\" class=\"img-fluid center-block\"></a>\n                    <h4 class=\"text-normal text-center\">");
+  responsebody += QStringLiteral("\">\n                      <img src=\"");
+  responsebody += QVariant(i.getFirstPhoto()).toString();
+  responsebody += QStringLiteral("\" alt=\"\" class=\"img-fluid center-block\"></a>\n                    <h4 class=\"text-normal text-center\">");
   responsebody += THttpUtility::htmlEscape(i.getModel().name());
   responsebody += QStringLiteral("</h4>\n                    <p>");
   responsebody += THttpUtility::htmlEscape(i.title());
-  responsebody += QStringLiteral("</p>\n                    <div class=\"mt-2\">\n                      <span class=\"mr-2\">\n                        <i class=\"zmdi zmdi-star color-warning\"></i>\n                        <i class=\"zmdi zmdi-star color-warning\"></i>\n                        <i class=\"zmdi zmdi-star color-warning\"></i>\n                        <i class=\"zmdi zmdi-star color-warning\"></i>\n                        <i class=\"zmdi zmdi-star\"></i>\n                      </span>\n                      <span class=\"ms-tag ms-tag-success\">$\n                        ");
-  responsebody += THttpUtility::htmlEscape(i.price());
-  responsebody += QStringLiteral("</span>\n                    </div>\n                    <a href=\"javascript:void(0)\" class=\"btn btn-danger btn-sm btn-block btn-raised mt-2 no-mb\" data-toggle=\"modal\" data-target=\"#removeVehicleModal");
+  responsebody += QStringLiteral("</p>\n                    <div class=\"mt-2\">\n                      <span class=\"mr-2\">\n                        <i class=\"zmdi zmdi-star color-warning\"></i>\n                        <i class=\"zmdi zmdi-star color-warning\"></i>\n                        <i class=\"zmdi zmdi-star color-warning\"></i>\n                        <i class=\"zmdi zmdi-star color-warning\"></i>\n                        <i class=\"zmdi zmdi-star\"></i>\n                      </span>\n                      \n                      ");
+  if (i.inventoryStatus() == "SOLD") {
+  responsebody += QStringLiteral("                      <span class=\"ms-tag ms-tag-danger\">\n                        SOLD\n                      </span>\n                      ");
+  } else {
+  responsebody += QStringLiteral("                      <span class=\"ms-tag ms-tag-success\">$\n                        ");
+  responsebody += QVariant(i.price()).toString();
+  responsebody += QStringLiteral("\n                      </span>\n                      ");
+  };
+  responsebody += QStringLiteral("\n                    </div>\n                    <a href=\"javascript:void(0)\" class=\"btn btn-danger btn-sm btn-block btn-raised mt-2 no-mb\" data-toggle=\"modal\" data-target=\"#removeVehicleModal");
   responsebody += THttpUtility::htmlEscape(i.id());
   responsebody += QStringLiteral("\">\n                      <i class=\"zmdi zmdi-delete\"></i>\n                      remove\n                    </a>\n                  </div>\n                </div>\n              </div>\n              <div class=\"modal modal-danger\" id=\"removeVehicleModal");
   responsebody += THttpUtility::htmlEscape(i.id());

@@ -19,11 +19,11 @@
           <%== renderPartial("flash") %>
           <div class="row color-dark">
             <% for (const auto &i : vehicleList) { %>
-              <div class="col-md-4 col-md-6 mix laptop apple" data-price="1999.99" data-date="20160901">
+              <div class="col-md-4 mix laptop apple" data-price="1999.99" data-date="20160901">
                 <div class="card wow zoomInUp" style="visibility: visible; animation-name: zoomInUp;">
                   <div class="card-body overflow-hidden text-center">
                     <a href="/admin/vehicle/save/<%=i.id()%>">
-                      <img src="/media/model/alphard.jpg" alt="" class="img-fluid center-block"></a>
+                      <img src="<%== i.getFirstPhoto() %>" alt="" class="img-fluid center-block"></a>
                     <h4 class="text-normal text-center"><%= i.getModel().name() %></h4>
                     <p><%= i.title() %></p>
                     <div class="mt-2">
@@ -34,8 +34,16 @@
                         <i class="zmdi zmdi-star color-warning"></i>
                         <i class="zmdi zmdi-star"></i>
                       </span>
+
+                      <% if (i.inventoryStatus() == "SOLD") { %>
+                      <span class="ms-tag ms-tag-danger">
+                        SOLD
+                      </span>
+                      <% } else { %>
                       <span class="ms-tag ms-tag-success">$
-                        <%= i.price() %></span>
+                        <%== i.price() %>
+                      </span>
+                      <% } %>
                     </div>
                   </div>
                 </div>

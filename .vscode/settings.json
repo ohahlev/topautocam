@@ -1,11 +1,28 @@
 {
     "C_Cpp.errorSquiggles": "Disabled",
     "files.associations": {
+        "*.hbs": "html",
         "bitset": "cpp",
         "cstdlib": "cpp",
         "algorithm": "cpp",
         "functional": "cpp",
         "__string": "cpp",
-        "__tree": "cpp"
+        "__tree": "cpp",
+        "list": "cpp",
+        "array": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "utility": "cpp",
+        "__hash_table": "cpp",
+        "__split_buffer": "cpp",
+        "deque": "cpp",
+        "iterator": "cpp",
+        "map": "cpp",
+        "queue": "cpp",
+        "random": "cpp",
+        "stack": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp"
     }
 }
