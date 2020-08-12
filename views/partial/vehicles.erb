@@ -2,16 +2,15 @@
 <% tfetch(QList<Vehicle>, vehicleList) %>
 <div class="container">
   <div class="row">
-    <div class="col-lg-12">
+    <div class="col-md-12">
       <%== renderPartial("vehicle_filter") %>
     </div>
   </div>
   <div class="row">
-    <div class="col-lg-12">
+    <div class="col-md-12">
       <div class="panel panel-primary">
         <div class="panel-heading">
           <h3 class="panel-title">
-            
             <i class="fa fa-globe"></i>
             Vehicles
           </h3>
@@ -20,7 +19,7 @@
           <%== renderPartial("flash") %>
           <div class="row color-dark">
             <% for (const auto &i : vehicleList) { %>
-              <div class="col-lg-4 col-md-6 mix laptop apple" data-price="1999.99" data-date="20160901">
+              <div class="col-md-4 col-md-6 mix laptop apple" data-price="1999.99" data-date="20160901">
                 <div class="card wow zoomInUp" style="visibility: visible; animation-name: zoomInUp;">
                   <div class="card-body overflow-hidden text-center">
                     <a href="/admin/vehicle/save/<%=i.id()%>">

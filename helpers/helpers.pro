@@ -17,3 +17,27 @@ HEADERS += applicationhelper.h
 SOURCES += applicationhelper.cpp
 HEADERS += newsvalidator.h
 SOURCES += newsvalidator.cpp
+HEADERS += vehiclevalidator.h
+SOURCES += vehiclevalidator.cpp
+HEADERS += vehiclemodelvalidator.h
+SOURCES += vehiclemodelvalidator.cpp
+HEADERS += makevalidator.h
+SOURCES += makevalidator.cpp
+HEADERS += gradevalidator.h
+SOURCES += gradevalidator.cpp
+HEADERS += fueltypevalidator.h
+SOURCES += fueltypevalidator.cpp
+HEADERS += drivetypevalidator.h
+SOURCES += drivetypevalidator.cpp
+HEADERS += colorvalidator.h
+SOURCES += colorvalidator.cpp
+HEADERS += bodytypevalidator.h
+SOURCES += bodytypevalidator.cpp
+
+
+
+
+
+
+
+

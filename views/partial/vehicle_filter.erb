@@ -5,6 +5,7 @@
 <%#include "drivetype.h" %>
 <%#include "fueltype.h" %>
 <%#include "bodytype.h" %>
+
 <% tfetch(QList<Make>, makeList) %>
 <% tfetch(QList<VehicleModel>, modelList) %>
 <% tfetch(QList<BodyType>, bodyTypeList) %>
@@ -12,144 +13,181 @@
 <% tfetch(QList<Color>, colorList) %>
 <% tfetch(QList<Grade>, gradeList) %>
 <% tfetch(QList<FuelType>, fuelTypeList) %>
-<div class="row">
-  <div class="col-md-12">
-    <div class="card card-primary">
-      <div class="card-header">
-        <h3 class="card-title">Filter List</h3>
-      </div>
-      <div class="card-body">
-        <div class="row">
-          <div class="col-md-12">
-            <form method="get" action="search">
-              <div class="row">
-                <div class="col-md-3">
-                  <fieldset>
-                    <div class="form-group">
-                      <label for="inputMake" class="col-md-3 control-label">Make</label>
-                      <div class="col-md-9">
-                        <select class="selectpicker form-control is-valid" id="inputMake" name="makeId">
-                          <% for (const auto &i : makeList) { %>
-                            <option value="<%=i.id()%>"><%=i.name()%></option>
-                            <% } %>
-                          </select>
-                        </div>
-                      </div>
-                    </fieldset>
-                  </div>
-                  <div class="col-md-3">
-                    <fieldset>
-                      <div class="form-group">
-                        <label for="inputModel" class="col-md-3 control-label">Model</label>
-                        <div class="col-md-9">
-                          <select class="selectpicker form-control is-valid" id="inputModel" name="modelId">
-                            <% for (const auto &i : modelList) { %>
-                              <option value="<%=i.id()%>"><%=i.name()%></option>
-                              <% } %>
-                            </select>
-                          </div>
-                        </div>
-                      </fieldset>
-                    </div>
-                    <div class="col-md-3">
-                      <fieldset>
-                        <div class="form-group">
-                          <label for="inputBodyType" class="col-md-3 control-label">Body</label>
-                          <div class="col-md-9">
-                            <select class="selectpicker form-control is-valid" id="inputBodyType" name="bodyId">
-                              <% for (const auto &i : bodyTypeList) { %>
-                                <option value="<%=i.id()%>"><%=i.name()%></option>
-                                <% } %>
-                              </select>
-                            </div>
-                          </div>
-                        </fieldset>
-                      </div>
-                      <div class="col-md-3">
-                        <fieldset>
-                          <div class="form-group">
-                            <label for="inputModel" class="col-md-3 control-label">Drive</label>
-                            <div class="col-md-9">
-                              <select class="selectpicker form-control is-valid" id="inputModel" name="driveId">
-                                <% for (const auto &i : driveTypeList) { %>
-                                  <option value="<%=i.id()%>"><%=i.name()%></option>
-                                  <% } %>
-                                </select>
-                              </div>
-                            </div>
-                          </fieldset>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-md-4">
-                          <fieldset>
-                            <div class="form-group">
-                              <label for="inputColor" autocomplete="false" class="col-md-3 control-label">Color</label>
-                              <div class="col-md-9">
-                                <select class="selectpicker form-control is-valid" id="inputColor" name="colorId">
-                                  <% for(const auto &i : colorList) { %>
-                                    <option value="<%=i.id()%>"><%=i.name()%></option>
-                                    <% } %>
-                                  </select>
-                                </div>
-                              </div>
-                            </fieldset>
-                          </div>
-                          <div class="col-md-4">
-                            <fieldset>
-                              <div class="form-group">
-                                <label for="inputGrade" autocomplete="false" class="col-md-3 control-label">Grade</label>
-                                <div class="col-md-9">
-                                  <select class="selectpicker form-control is-valid" id="inputGrade" name="gradeId">
-                                    <% for(const auto &i : gradeList) { %>
-                                      <option value="<%=i.id()%>"><%=i.name()%></option>
-                                      <% } %>
-                                    </select>
-                                  </div>
-                                </div>
-                              </fieldset>
-                            </div>
-                            <div class="col-md-4">
-                              <fieldset>
-                                <div class="form-group">
-                                  <label for="inputGrade" autocomplete="false" class="col-md-3 control-label">Fuel</label>
-                                  <div class="col-md-9">
-                                    <select class="selectpicker form-control is-valid" id="inputGrade" name="fuelId">
-                                      <% for(const auto &i : fuelTypeList) { %>
-                                        <option value="<%=i.id()%>"><%=i.name()%></option>
-                                        <% } %>
-                                      </select>
-                                    </div>
-                                  </div>
-                                </fieldset>
-                              </div>
-                              <!--
-                    <div class="col-md-4">
-                      <form class="form-horizontal">
-                        <h4>Sort by</h4>
-                        <select id="SortSelect" class="form-control selectpicker">
-                          <option value="random">Popular</option>
-                          <option value="price:asc">Price ASC</option>
-                          <option value="price:desc">Price DESC</option>
-                          <option value="date:asc">Release ASC</option>
-                          <option value="date:desc">Release DESC</option>
-                        </select>
-                      </form>
-                      <button class="btn btn-danger btn-block no-mb mt-2" id="Reset"><i class="zmdi zmdi-delete"></i> Clear Filters</button>
-                    </div>
-                    -->
-                            </div>
-                            <div class="row">
-                              <div class="col-md-3">
-                                <button class="btn btn-danger btn-block no-mb mt-2" id="Reset" type="submit">
-                                  filter
-                                </button>
-                              </div>
-                            </div>
-                          </form>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+
+<% tfetch(int, make) %>
+<% tfetch(int, model) %>
+<% tfetch(int, body) %>
+<% tfetch(int, color) %>
+<% tfetch(int, grade) %>
+<% tfetch(int, fuel) %>
+<% tfetch(int, drive) %>
+
+<div class="card card-primary">
+  <div class="card-header">
+    <h3 class="card-title">Filter List</h3>
+  </div>
+  <div class="card-body">
+
+    <form method="get" action="search">
+
+      <div class="row">
+
+        <div class="col-md-4">
+          <fieldset>
+            <div class="form-group">
+              <label for="inputMake" class="col-md-3 control-label">Make</label>
+              <div class="col-md-9">
+                <select class="selectpicker form-control is-valid" id="inputMake" name="make">
+                  <option value="0" selected>ALL</option>
+                  <% for (const auto &i : makeList) { %>
+                    <% if (i.id() == make) { %>
+                      <option value="<%=i.id()%>" selected><%=i.name()%></option>
+                    <% } else { %>
+                      <option value="<%=i.id()%>"><%=i.name()%></option>
+                    <% } %>
+                  <% } %>
+                </select>
               </div>
+            </div>
+          </fieldset>
+        </div>
+
+        <div class="col-md-4">
+          <fieldset>
+            <div class="form-group">
+              <label for="inputModel" class="col-md-3 control-label">Model</label>
+              <div class="col-md-9">
+                <select class="selectpicker form-control is-valid" id="inputModel" name="model">
+                  <option value="0" selected>ALL</option>
+                  <% for (const auto &i : modelList) { %>
+                    <% if (i.id() == model) { %>
+                      <option value="<%=i.id()%>" selected><%=i.name()%></option>
+                    <% } else { %>
+                      <option value="<%=i.id()%>"><%=i.name()%></option>
+                    <% } %>
+                  <% } %>
+                </select>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+
+        <div class="col-md-4">
+          <fieldset>
+            <div class="form-group">
+              <label for="inputBodyType" class="col-md-3 control-label">Body</label>
+              <div class="col-md-9">
+                <select class="selectpicker form-control is-valid" id="inputBodyType" name="body">
+                  <option value="0" selected>ALL</option>
+                  <% for (const auto &i : bodyTypeList) { %>
+                    <% if (i.id() == body) { %>
+                      <option value="<%=i.id()%>" selected><%=i.name()%></option>
+                    <% } else { %>
+                      <option value="<%=i.id()%>"><%=i.name()%></option>
+                    <% } %>
+                  <% } %>
+                </select>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-4">
+          <fieldset>
+            <div class="form-group">
+              <label for="inputColor" autocomplete="false" class="col-md-3 control-label">Color</label>
+              <div class="col-md-9">
+                <select class="selectpicker form-control is-valid" id="inputColor" name="color">
+                  <option value="0" selected>ALL</option>
+                  <% for(const auto &i : colorList) { %>
+                    <% if (i.id() == color) { %>
+                      <option value="<%=i.id()%>" selected><%=i.name()%></option>
+                    <% } else { %>
+                      <option value="<%=i.id()%>"><%=i.name()%></option>
+                    <% } %>
+                  <% } %>
+                </select>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+
+        <div class="col-md-4">
+          <fieldset>
+            <div class="form-group">
+              <label for="inputGrade" autocomplete="false" class="col-md-3 control-label">Grade</label>
+              <div class="col-md-9">
+                <select class="selectpicker form-control is-valid" id="inputGrade" name="grade">
+                  <option value="0" selected>ALL</option>
+                  <% for(const auto &i : gradeList) { %>
+                    <% if (i.id() == grade) { %>
+                      <option value="<%=i.id()%>" selected><%=i.name()%></option>
+                    <% } else { %>
+                      <option value="<%=i.id()%>"><%=i.name()%></option>
+                    <% } %>
+                  <% } %>
+                </select>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+
+        <div class="col-md-4">
+          <fieldset>
+            <div class="form-group">
+              <label for="inputGrade" autocomplete="false" class="col-md-3 control-label">Fuel</label>
+              <div class="col-md-9">
+                <select class="selectpicker form-control is-valid" id="inputGrade" name="fuel">
+                  <option value="0" selected>ALL</option>
+                  <% for(const auto &i : fuelTypeList) { %>
+                    <% if (i.id() == fuel) { %>
+                      <option value="<%=i.id()%>" selected><%=i.name()%></option>
+                    <% } else { %>
+                      <option value="<%=i.id()%>"><%=i.name()%></option>
+                    <% } %>
+                  <% } %>
+                </select>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-4">
+          <fieldset>
+            <div class="form-group">
+              <label for="inputModel" class="col-md-3 control-label">Drive</label>
+              <div class="col-md-9">
+                <select class="selectpicker form-control is-valid" id="inputModel" name="drive">
+                  <option value="0" selected>ALL</option>
+                  <% for (const auto &i : driveTypeList) { %>
+                    <% if (i.id() == drive) { %>
+                      <option value="<%=i.id()%>" selected><%=i.name()%></option>
+                    <% } else { %>
+                      <option value="<%=i.id()%>"><%=i.name()%></option>
+                    <% } %>
+                  <% } %>
+                </select>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <button class="btn btn-danger btn-block no-mb mt-2" id="Reset" type="submit">
+            filter
+          </button>
+        </div>
+      </div>
+    </form>
+
+  </div>
+</div>

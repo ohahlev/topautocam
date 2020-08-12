@@ -293,20 +293,50 @@ QList<Vehicle> Vehicle::getAll()
     return tfGetModelListByCriteria<Vehicle, VehicleObject>(TCriteria());
 }
 
-//makeId=:param&modelId=:param&bodyId=:param&driveId=:param&colorId=:param&gradeId=:param&fuelId=:param
-QList<Vehicle> Vehicle::search(const int makeId, const int modelId, const int bodyId,
-                               const int driveId, const int colorId, const int gradeId,
-                               const int fuelId)
+// makeId/modelId/bodyId/colorId/gradeId/fuelId/driveId
+QList<Vehicle> Vehicle::search(const int make, const int model, const int body,
+                               const int color, const int grade, const int fuel, 
+                               const int drive) 
 {
-    TCriteria crt(MakeObject::Id, makeId);
-    crt.add(VehicleModelObject::Id, modelId);
-    crt.add(BodyTypeObject::Id, bodyId);
-    crt.add(DriveTypeObject::Id, driveId);
-    crt.add(ColorObject::Id, colorId);
-    crt.add(GradeObject::Id, gradeId);
-    crt.add(FuelTypeObject::Id, fuelId);
 
-    return tfGetModelListByCriteria<Vehicle, VehicleObject>(crt);
+    tInfo("make = %d, model = %d, body = %d, color = %d, grade = %d, fuel = %d, drive = %d",
+    make, model, body, color, grade, fuel, drive);
+
+    TCriteria crt = TCriteria();
+
+    if(make != 0) {
+        crt.add(MakeObject::Id, make);
+    }
+
+    if(model != 0) {   
+        crt.add(VehicleModelObject::Id, model);
+    }
+
+    if(body != 0) {
+        crt.add(BodyTypeObject::Id, body);
+    }
+    
+    if(color != 0) {
+        crt.add(ColorObject::Id, color);
+    }
+
+    if(grade != 0) {
+        crt.add(GradeObject::Id, grade);    
+    }
+
+    if(fuel != 0) {
+        crt.add(FuelTypeObject::Id, fuel);
+    }
+
+    if(drive != 0) {
+        crt.add(DriveTypeObject::Id, drive);
+    }
+
+    QList<Vehicle> results = tfGetModelListByCriteria<Vehicle, VehicleObject>(crt, 10, 0);
+
+    tInfo("vehicle results = %d", results.size());
+
+    return results;
 }
 
 QJsonArray Vehicle::getAllJson()

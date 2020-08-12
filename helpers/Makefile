@@ -53,9 +53,25 @@ OBJECTS_DIR   = .obj/
 ####### Files
 
 SOURCES       = applicationhelper.cpp \
-		newsvalidator.cpp 
+		newsvalidator.cpp \
+		vehiclevalidator.cpp \
+		vehiclemodelvalidator.cpp \
+		makevalidator.cpp \
+		gradevalidator.cpp \
+		fueltypevalidator.cpp \
+		drivetypevalidator.cpp \
+		colorvalidator.cpp \
+		bodytypevalidator.cpp 
 OBJECTS       = .obj/applicationhelper.o \
-		.obj/newsvalidator.o
+		.obj/newsvalidator.o \
+		.obj/vehiclevalidator.o \
+		.obj/vehiclemodelvalidator.o \
+		.obj/makevalidator.o \
+		.obj/gradevalidator.o \
+		.obj/fueltypevalidator.o \
+		.obj/drivetypevalidator.o \
+		.obj/colorvalidator.o \
+		.obj/bodytypevalidator.o
 DIST          = /usr/lib64/qt5/mkspecs/features/spec_pre.prf \
 		/usr/lib64/qt5/mkspecs/common/unix.conf \
 		/usr/lib64/qt5/mkspecs/common/linux.conf \
@@ -166,8 +182,24 @@ DIST          = /usr/lib64/qt5/mkspecs/features/spec_pre.prf \
 		/usr/lib64/qt5/mkspecs/features/yacc.prf \
 		/usr/lib64/qt5/mkspecs/features/lex.prf \
 		helpers.pro applicationhelper.h \
-		newsvalidator.h applicationhelper.cpp \
-		newsvalidator.cpp
+		newsvalidator.h \
+		vehiclevalidator.h \
+		vehiclemodelvalidator.h \
+		makevalidator.h \
+		gradevalidator.h \
+		fueltypevalidator.h \
+		drivetypevalidator.h \
+		colorvalidator.h \
+		bodytypevalidator.h applicationhelper.cpp \
+		newsvalidator.cpp \
+		vehiclevalidator.cpp \
+		vehiclemodelvalidator.cpp \
+		makevalidator.cpp \
+		gradevalidator.cpp \
+		fueltypevalidator.cpp \
+		drivetypevalidator.cpp \
+		colorvalidator.cpp \
+		bodytypevalidator.cpp
 QMAKE_TARGET  = helper
 DESTDIR       = ../lib/
 TARGET        = libhelper.so.1.0.0
@@ -441,8 +473,8 @@ distdir: FORCE
 	@test -d $(DISTDIR) || mkdir -p $(DISTDIR)
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
 	$(COPY_FILE) --parents /usr/lib64/qt5/mkspecs/features/data/dummy.cpp $(DISTDIR)/
-	$(COPY_FILE) --parents applicationhelper.h newsvalidator.h $(DISTDIR)/
-	$(COPY_FILE) --parents applicationhelper.cpp newsvalidator.cpp $(DISTDIR)/
+	$(COPY_FILE) --parents applicationhelper.h newsvalidator.h vehiclevalidator.h vehiclemodelvalidator.h makevalidator.h gradevalidator.h fueltypevalidator.h drivetypevalidator.h colorvalidator.h bodytypevalidator.h $(DISTDIR)/
+	$(COPY_FILE) --parents applicationhelper.cpp newsvalidator.cpp vehiclevalidator.cpp vehiclemodelvalidator.cpp makevalidator.cpp gradevalidator.cpp fueltypevalidator.cpp drivetypevalidator.cpp colorvalidator.cpp bodytypevalidator.cpp $(DISTDIR)/
 
 
 clean: compiler_clean 
@@ -495,6 +527,30 @@ compiler_clean: compiler_moc_predefs_clean
 
 .obj/newsvalidator.o: newsvalidator.cpp newsvalidator.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o .obj/newsvalidator.o newsvalidator.cpp
+
+.obj/vehiclevalidator.o: vehiclevalidator.cpp vehiclevalidator.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o .obj/vehiclevalidator.o vehiclevalidator.cpp
+
+.obj/vehiclemodelvalidator.o: vehiclemodelvalidator.cpp vehiclemodelvalidator.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o .obj/vehiclemodelvalidator.o vehiclemodelvalidator.cpp
+
+.obj/makevalidator.o: makevalidator.cpp makevalidator.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o .obj/makevalidator.o makevalidator.cpp
+
+.obj/gradevalidator.o: gradevalidator.cpp gradevalidator.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o .obj/gradevalidator.o gradevalidator.cpp
+
+.obj/fueltypevalidator.o: fueltypevalidator.cpp fueltypevalidator.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o .obj/fueltypevalidator.o fueltypevalidator.cpp
+
+.obj/drivetypevalidator.o: drivetypevalidator.cpp drivetypevalidator.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o .obj/drivetypevalidator.o drivetypevalidator.cpp
+
+.obj/colorvalidator.o: colorvalidator.cpp colorvalidator.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o .obj/colorvalidator.o colorvalidator.cpp
+
+.obj/bodytypevalidator.o: bodytypevalidator.cpp bodytypevalidator.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o .obj/bodytypevalidator.o bodytypevalidator.cpp
 
 ####### Install
 

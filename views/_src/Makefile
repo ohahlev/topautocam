@@ -1940,6 +1940,13 @@ compiler_moc_source_clean:
 	/usr/bin/moc $(DEFINES) --include /home/ahlev/Projects/cplusplus/topautocam/views/_src/.obj/moc_predefs.h -I/usr/lib64/qt5/mkspecs/linux-g++ -I/home/ahlev/Projects/cplusplus/topautocam/views/_src -I/home/ahlev/Projects/cplusplus/topautocam/helpers -I/home/ahlev/Projects/cplusplus/topautocam/models -I/usr/include/treefrog -I/usr/include/QtQml -I/usr/include/QtNetwork -I/usr/include/QtXml -I/usr/include/QtCore -I/usr/include/c++/10 -I/usr/include/c++/10/x86_64-generic-linux -I/usr/include/c++/10/backward -I/usr/lib64/gcc/x86_64-generic-linux/10/include -I/usr/local/include -I/usr/lib64/gcc/x86_64-generic-linux/10/include-fixed -I/usr/include partial_vehicle_detailView.cpp -o .obj/partial_vehicle_detailView.moc
 
 .obj/partial_vehicle_filterView.moc: partial_vehicle_filterView.cpp \
+		../../models/make.h \
+		../../models/vehiclemodel.h \
+		../../models/grade.h \
+		../../models/color.h \
+		../../models/drivetype.h \
+		../../models/fueltype.h \
+		../../models/bodytype.h \
 		../../helpers/applicationhelper.h \
 		../../helpers/bodytypevalidator.h \
 		../../helpers/colorvalidator.h \
@@ -3159,7 +3166,14 @@ compiler_clean: compiler_moc_predefs_clean compiler_moc_source_clean
 		.obj/partial_vehicle_detailView.moc
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o .obj/partial_vehicle_detailView.o partial_vehicle_detailView.cpp
 
-.obj/partial_vehicle_filterView.o: partial_vehicle_filterView.cpp ../../helpers/applicationhelper.h \
+.obj/partial_vehicle_filterView.o: partial_vehicle_filterView.cpp ../../models/make.h \
+		../../models/vehiclemodel.h \
+		../../models/grade.h \
+		../../models/color.h \
+		../../models/drivetype.h \
+		../../models/fueltype.h \
+		../../models/bodytype.h \
+		../../helpers/applicationhelper.h \
 		../../helpers/bodytypevalidator.h \
 		../../helpers/colorvalidator.h \
 		../../helpers/drivetypevalidator.h \
