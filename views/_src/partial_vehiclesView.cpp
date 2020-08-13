@@ -22,15 +22,15 @@ public:
 
 QString partial_vehiclesView::toString()
 {
-  responsebody.reserve(3036);
+  responsebody.reserve(3035);
     tfetch(QList<Vehicle>, vehicleList);
   responsebody += QStringLiteral("<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-md-12\">\n      ");
   responsebody += QVariant(renderPartial("vehicle_filter")).toString();
-  responsebody += QStringLiteral("\n    </div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-md-12\">\n      <div class=\"panel panel-primary\">\n        <div class=\"panel-heading\">\n          <h3 class=\"panel-title\">\n            <i class=\"fa fa-globe\"></i>\n            Vehicles\n          </h3>\n        </div>\n        <div class=\"panel-body\">\n          ");
+  responsebody += QStringLiteral("\n    </div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-md-12\">\n      <div class=\"panel panel-primary\">\n        <div class=\"panel-heading\">\n          <h3 class=\"panel-title\">\n            <i class=\"fa fa-globe\"></i>\n            Vehicles\n          </h3>\n        </div>\n        <div class=\"panel-body\">\n        \n          ");
   responsebody += QVariant(renderPartial("flash")).toString();
   responsebody += QStringLiteral("\n          <div class=\"row color-dark\">\n            ");
   for (const auto &i : vehicleList) {
-  responsebody += QStringLiteral("              <div class=\"col-md-4 mix laptop apple\" data-price=\"1999.99\" data-date=\"20160901\">\n                <div class=\"card wow zoomInUp\" style=\"visibility: visible; animation-name: zoomInUp;\">\n                  <div class=\"card-body overflow-hidden text-center\">\n                    <a href=\"/admin/vehicle/save/");
+  responsebody += QStringLiteral("              <div class=\"col-md-4 mix laptop apple\" data-price=\"1999.99\" data-date=\"20160901\">\n                <div class=\"card wow zoomInUp\" style=\"visibility: visible; animation-name: zoomInUp;\">\n                  <div class=\"card-body overflow-hidden text-center\">\n                    <a href=\"/vehicle/");
   responsebody += THttpUtility::htmlEscape(i.id());
   responsebody += QStringLiteral("\">\n                      <img src=\"");
   responsebody += QVariant(i.getFirstPhoto()).toString();

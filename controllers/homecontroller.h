@@ -14,8 +14,8 @@ private:
 
 public slots:
     void index();
-
     void search();
+    void detail(const QString &vehicleId);
 };
 
 #endif // HOMECONTROLLER_H

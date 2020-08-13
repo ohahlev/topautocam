@@ -7,6 +7,8 @@
 #include "drivetype.h"
 #include "bodytype.h"
 #include "fueltype.h"
+#include "vehiclegallery.h"
+
 
 void HomeController::index()
 {
@@ -119,6 +121,21 @@ void HomeController::exportForSelectBoxes() {
 
     auto fuelTypeList = FuelType::getAll();
     texport(fuelTypeList);
+}
+
+void HomeController::detail(const QString &id) {
+    
+    Vehicle vehicle = Vehicle::get(id.toInt());
+    if(vehicle.isNull()) {
+        renderErrorResponse(Tf::NotFound);
+    }
+
+    QList<VehicleGallery> vehicleGalleryList = VehicleGallery::getAllByVehicle(id.toInt());
+    
+    texport(vehicle);
+    texport(vehicleGalleryList);
+
+    render("detail");
 }
 
 // Don't remove below this line
